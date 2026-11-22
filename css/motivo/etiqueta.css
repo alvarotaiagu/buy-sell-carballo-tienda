@@ -1,0 +1,32 @@
+/* Motivo «vitrina» · etiqueta ovalada del precio (la pegatina del logo, boceto B) y hueco sin foto.
+   El fondo es logo.short (--logo-ovalo, lo pone marca.js desde el tema); su proporción, --ovalo-ar.
+   El rectángulo útil del óvalo es el 64 % del ancho y el 49 % del alto (medido en ovalo.svg). */
+html[data-motif="vitrina"] .etiqueta {
+  --h: 44px;
+  position: relative; display: inline-grid; place-items: center; flex: none;
+  height: var(--h); aspect-ratio: var(--ovalo-ar, 400 / 236);
+  background: var(--logo-ovalo) center / contain no-repeat;
+  color: var(--text); text-decoration: none;
+  filter: drop-shadow(0 1px 1px rgb(var(--sombra) / .28)) drop-shadow(0 4px 5px rgb(var(--sombra) / .14));
+  rotate: -3deg; transition: transform .45s var(--expo), opacity .25s;
+  transform-origin: 18% 82%;
+}
+.etiqueta-m { --h: 58px; }
+.etiqueta-g { --h: 92px; rotate: -2deg; }
+.etq-precio { display: inline-flex; align-items: baseline; justify-content: center; max-width: 64%; font: 600 calc(var(--h) * .34) / 1 var(--font-mono); letter-spacing: -0.04em; white-space: nowrap; }
+.etiqueta-larga .etq-precio { font-size: calc(var(--h) * .27); }
+.etq-euro { display: none; width: auto; height: .78em; aspect-ratio: var(--euro-ar, 1); margin-left: .06em; color: var(--motif); overflow: visible; align-self: center; translate: 0 -.02em; }
+html.con-euro .etq-euro { display: inline-block; }
+html.con-euro .etq-e { display: none; }
+.etq-e { margin-left: .05em; color: var(--motif); }
+.etq-txt { font: 600 calc(var(--h) * .19) / 1.05 var(--font-mono); letter-spacing: -0.02em; text-transform: uppercase; text-align: center; max-width: 62%; }
+.etiqueta-rebaja .etq-num { color: var(--sale); }
+.etq-antes { position: absolute; left: 50%; top: 100%; translate: -50% 1px; font: 400 calc(var(--h) * .2 + 4px) / 1 var(--font-mono); color: var(--muted); white-space: nowrap; rotate: 3deg; }
+.etiqueta-g .etq-antes { font-size: 15px; }
+/* la que se despega deja su sitio y vuelve */
+.etiqueta-despegada { opacity: .18; }
+.etiqueta-vuela { rotate: 0deg; }
+
+/* hueco sin foto: el óvalo del logo, tenue */
+.hueco { display: block; width: 100%; aspect-ratio: var(--ovalo-ar, 400 / 236); background: var(--logo-ovalo) center / contain no-repeat; opacity: .22; filter: grayscale(1); }
+.hueco-grande { width: 180px; }

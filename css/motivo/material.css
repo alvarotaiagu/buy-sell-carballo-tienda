@@ -1,0 +1,58 @@
+/* Motivo «vitrina» · los materiales de zona (boceto D), dibujados en CSS, y la cabecera de categoría.
+   .mat ocupa su contenedor (position: relative) a sangre. Colores: solo materiales.css y el tema. */
+.mat { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.mat i { position: absolute; display: block; }
+
+/* césped: tarima con briznas */
+.mat-cesped { background: linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%); }
+.mat-tarima { left: 0; right: 0; bottom: 0; height: 30%; }
+.mat-manto { inset: 0;
+  background: repeating-linear-gradient(86deg, color-mix(in srgb, var(--surface) 10%, transparent) 0 1px, transparent 1px 5px),
+    repeating-linear-gradient(97deg, color-mix(in srgb, var(--cesped-3) 30%, transparent) 0 1px, transparent 1px 7px),
+    linear-gradient(180deg, var(--cesped-1) 0%, var(--cesped-2) 55%, var(--cesped-3) 100%); }
+.mat-briznas { position: absolute; left: 0; bottom: calc(100% - 1px); width: 100%; height: 18px; fill: var(--cesped-1); overflow: visible; }
+
+/* vidrio: vitrina con su canto verdoso, baldas de cristal y un reflejo */
+.mat-vidrio { background: linear-gradient(180deg, color-mix(in srgb, var(--vidrio-1) 8%, var(--surface)) 0%, color-mix(in srgb, var(--vidrio-1) 22%, var(--bg)) 100%); }
+.mat-reflejo { inset: 0; background: linear-gradient(112deg, transparent 0 16%, var(--brillo) 16.2% 21%, transparent 21.2% 64%, color-mix(in srgb, var(--surface) 50%, transparent) 64.2% 70%, transparent 70.2%); opacity: .7; }
+.mat-canto { top: 0; bottom: 0; left: var(--x); width: 5px; background: linear-gradient(90deg, var(--vidrio-2), var(--vidrio-1) 45%, var(--vidrio-2)); opacity: .8; }
+.mat-vbalda { left: 0; right: 0; bottom: var(--b); height: 9px; background: linear-gradient(180deg, var(--brillo) 0 18%, var(--vidrio-1) 18% 60%, var(--vidrio-2) 60% 100%); box-shadow: 0 12px 16px -8px rgb(var(--sombra) / .3); }
+.mat-barrido { top: -10%; bottom: -10%; left: 0; width: 22%; background: linear-gradient(100deg, transparent, var(--brillo) 45% 55%, transparent); transform: translateX(-140%) skewX(-14deg); opacity: 0; }
+
+/* mostrador blanco lacado */
+.mat-mostrador { background: linear-gradient(180deg, var(--surface), var(--bg)); }
+.mat-mesa { left: 0; right: 0; bottom: 0; height: 32%; }
+.mat-tapa { left: 0; right: 0; top: 0; height: 34%; background: linear-gradient(180deg, var(--mostrador-2) 0%, var(--mostrador-1) 80%); box-shadow: inset 0 1px 0 var(--line); }
+.mat-frente { left: 0; right: 0; bottom: 0; height: 66%; background: linear-gradient(180deg, var(--mostrador-1) 0 7%, var(--mostrador-2) 7.5% 55%, color-mix(in srgb, var(--mostrador-2) 80%, var(--alu-3)) 100%); box-shadow: 0 -1px 0 var(--line); }
+.mat-brillo { top: 0; bottom: 0; left: 0; width: 14%; background: linear-gradient(100deg, transparent, var(--brillo) 50%, transparent); transform: translateX(-130%) skewX(-12deg); opacity: 0; }
+
+/* balda: estantería blanca */
+.mat-balda { background: linear-gradient(180deg, color-mix(in srgb, var(--bg) 60%, var(--surface)), var(--bg)); }
+.mat-ebalda { left: 0; right: 0; bottom: var(--b); height: 12px; background: linear-gradient(180deg, var(--mostrador-1) 0 55%, var(--alu-2) 55% 100%); box-shadow: 0 14px 18px -8px rgb(var(--sombra) / .32), inset 0 -1px 0 var(--line); }
+
+/* suelo: baldosa gris de la tienda */
+.mat-suelo { background: linear-gradient(180deg, var(--surface), var(--bg)); }
+.mat-rodapie { left: 0; right: 0; bottom: 26%; height: 8px; background: var(--mostrador-1); box-shadow: inset 0 1px 0 var(--line); }
+.mat-solado { left: 0; right: 0; bottom: 0; height: 26%; display: grid !important; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-rows: .8fr 1.25fr; gap: 2px; padding-top: 2px; background: var(--alu-3); }
+.mat-solado i { position: static; background: linear-gradient(160deg, var(--suelo-1), var(--suelo-2)); }
+.mat-solado i:nth-child(3n) { background: linear-gradient(160deg, color-mix(in srgb, var(--suelo-1) 85%, var(--suelo-2)), color-mix(in srgb, var(--suelo-2) 85%, var(--alu-3))); }
+
+/* ganchos: panel perforado */
+.mat-ganchos { background: linear-gradient(180deg, var(--ganchos-1), var(--ganchos-2)); }
+.mat-perf { inset: 0; background: radial-gradient(circle, var(--ganchos-agujero) 0 1.6px, color-mix(in srgb, var(--ganchos-agujero) 30%, transparent) 1.8px 2.4px, transparent 2.6px) 0 0 / 18px 18px; opacity: .8; }
+.mat-gancho { left: var(--x); top: var(--y); width: 4px; height: 26px; border-radius: 2px; background: var(--alu-v); box-shadow: 1px 2px 2px rgb(var(--sombra) / .25); transform-origin: 50% 0; }
+.mat-gancho::after { content: ""; position: absolute; left: 0; bottom: -2px; width: 14px; height: 4px; border-radius: 2px; background: var(--alu-3); }
+
+/* pared: la de los cuadros, con su listón y una luz */
+.mat-pared { background: linear-gradient(180deg, var(--pared-1), var(--pared-2)); }
+.mat-liston { left: 0; right: 0; top: 18%; height: 6px; background: linear-gradient(180deg, var(--madera-1), var(--madera-2)); box-shadow: 0 3px 4px -1px rgb(var(--sombra) / .25); }
+.mat-luz { inset: 0; background: radial-gradient(40% 55% at 50% 10%, var(--brillo), transparent 70%); }
+
+/* ── cabecera de categoría: el material de la zona a sangre ── */
+.cat-cab { position: relative; overflow: hidden; min-height: 300px; display: flex; align-items: flex-start; padding-block: 28px 120px; border-bottom: 1px solid var(--line); }
+@media (min-width: 760px) { .cat-cab { min-height: 380px; padding-block: 40px 150px; } }
+.cat-cab .mat { z-index: 0; }
+.cat-cab-in { position: relative; z-index: 1; }
+.cat-cab h1 { font-size: clamp(36px, 7vw, 72px); max-width: 16ch; }
+.cat-desc { margin-top: 14px; max-width: 52ch; font-size: 17px; color: var(--tinta-suave); }
+.cat-cab[data-material="cesped"] .mat-tarima { height: 26%; }

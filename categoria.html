@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es" data-motif="vitrina" data-pagina="categoria">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tienda</title>
+<meta name="description" content="">
+<link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="datos.json" as="fetch" crossorigin>
+<link rel="preload" href="tema.json" as="fetch" crossorigin>
+<link rel="modulepreload" href="js/categoria.js">
+<link rel="modulepreload" href="js/datos.js">
+<link rel="modulepreload" href="js/chrome.js">
+<link rel="modulepreload" href="js/tarjeta.js">
+<link rel="modulepreload" href="js/cesta.js">
+<link rel="modulepreload" href="js/textos.js">
+<link rel="modulepreload" href="js/movimiento.js">
+<link rel="modulepreload" href="js/motivo/etiqueta.js">
+<link rel="modulepreload" href="js/motivo/marca.js">
+<link rel="modulepreload" href="js/motivo/materiales.js">
+<link rel="modulepreload" href="js/motivo/material.js">
+<link rel="modulepreload" href="js/motivo/despegar.js">
+<script>
+  (function () {
+    var h = document.documentElement;
+    h.classList.add('js');
+    if (!(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) h.classList.add('con-movimiento');
+  })();
+</script>
+<link rel="stylesheet" href="css/tema.css?v=60f97b71">
+<link rel="stylesheet" href="css/motivo/materiales.css?v=07bdbd79">
+<link rel="stylesheet" href="css/base.css?v=76d26b43">
+<link rel="stylesheet" href="css/motivo/etiqueta.css?v=746dfb47">
+<link rel="stylesheet" href="css/motivo/material.css?v=55c39414">
+<link rel="stylesheet" href="css/categoria.css?v=dcfdd893">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<div class="anuncio" data-anuncio hidden></div>
+<header class="cab">
+  <div class="cab-in wrap">
+    <button class="cab-menu" type="button" aria-expanded="false" aria-controls="menu" data-menu><i></i><i></i></button>
+    <a class="cab-logo" href="index.html" data-logo><img src="assets/brand/logo-horizontal.svg" alt="" width="164" height="36"></a>
+    <nav class="cab-nav" data-nav aria-label="Departamentos"></nav>
+    <div class="cab-acc">
+      <nav class="cv" data-cv></nav>
+      <a class="cab-icono" href="categoria.html?c=buscar" data-buscar><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6"/><path d="m15 15 5 5"/></svg></a>
+      <button class="cab-icono cab-cesta" type="button" data-abrir-cesta aria-controls="cesta"><span class="cesta-num mono" hidden>0</span></button>
+    </div>
+  </div>
+</header>
+<main id="contenido"></main>
+<footer class="pie" data-pie></footer>
+<!-- solo GSAP, para la entrada del material de la cabecera (sin ScrollTrigger ni Lenis) -->
+<script src="js/vendor/gsap.min.js" defer></script>
+<script type="module" src="js/categoria.js"></script>
+</body>
+</html>

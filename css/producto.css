@@ -1,0 +1,44 @@
+/* Ficha de producto (003 §3, tematizada). Galería con el recorte sobre una balda de vidrio. */
+.ficha { padding-block: 24px 24px; }
+.ficha-in { display: grid; gap: 32px; }
+@media (min-width: 900px) { .ficha-in { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 56px; align-items: start; } }
+.galeria { display: grid; gap: 12px; }
+@media (min-width: 900px) { .galeria { position: sticky; top: calc(var(--cab-h) + 20px); } }
+.galeria-vitrina { position: relative; aspect-ratio: 1 / 1; border-radius: var(--radius); overflow: hidden;
+  background: radial-gradient(60% 50% at 50% 0%, var(--surface), transparent 70%), linear-gradient(180deg, color-mix(in srgb, var(--surface) 60%, var(--bg)), var(--bg));
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text) 6%, transparent); }
+.galeria-obj { position: absolute; left: 9%; right: 9%; top: 7%; bottom: 30px; display: flex; align-items: flex-end; justify-content: center; }
+.galeria-obj img { max-width: 100%; max-height: 100%; width: auto; object-fit: contain; filter: drop-shadow(0 16px 14px rgb(var(--sombra) / .26)); }
+.galeria-obj.con-marco img { max-height: 92%; background: var(--surface); border: 7px solid var(--surface); filter: none;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--text) 12%, transparent), 0 22px 28px -16px rgb(var(--sombra) / .5); }
+.galeria-obj .hueco { width: 56%; }
+.galeria-vitrina .balda { position: absolute; left: 0; right: 0; bottom: 18px; height: 12px; }
+.galeria-mini { list-style: none; display: flex; gap: 8px; margin: 0; padding: 0; overflow-x: auto; }
+.galeria-mini button { display: grid; place-items: center; width: 72px; height: 72px; padding: 6px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.galeria-mini button[aria-current="true"] { border-color: var(--text); box-shadow: inset 0 0 0 1px var(--text); }
+.galeria-mini img { max-height: 58px; width: auto; object-fit: contain; }
+.galeria-mini img.enmarcada { border-width: 2px; }
+
+.ficha-info { display: grid; gap: 16px; align-content: start; }
+.ficha-cat { font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.ficha-cat a { text-decoration: none; }
+.ficha-info h1 { font-size: clamp(28px, 3.6vw, 42px); }
+.ficha-precio { display: flex; align-items: center; gap: 14px; padding: 6px 0 14px; }
+.ficha-iva { margin-top: -8px; font-size: 13px; color: var(--muted); }
+.sello-uno-grande { font-size: 13px; }
+.ficha-comprar { display: grid; gap: 10px; margin-top: 4px; }
+.ficha-comprar .btn { min-height: 54px; font-size: 16px; }
+.ficha-mensaje:empty { display: none; }
+.ficha-wa { justify-self: start; font-weight: 500; text-underline-offset: 3px; }
+.ficha-desc { padding-top: 16px; border-top: 1px solid var(--line); color: var(--tinta-suave); }
+.ficha-estado { color: var(--text); font-weight: 500; }
+.ficha-politicas { border-top: 1px solid var(--line); }
+.ficha-politicas details { border-bottom: 1px solid var(--line); }
+.ficha-politicas summary { display: flex; justify-content: space-between; padding: 16px 0; font-weight: 500; cursor: pointer; list-style: none; }
+.ficha-politicas summary::-webkit-details-marker { display: none; }
+.ficha-politicas summary::after { content: "+"; font: 400 20px/1 var(--font-mono); color: var(--muted); }
+.ficha-politicas details[open] summary::after { content: "−"; }
+.ficha-politicas details > :not(summary) { padding-bottom: 16px; color: var(--tinta-suave); font-size: 15px; }
+.ficha-politicas details p + p { margin-top: .6em; }
+.relacionados { padding-top: 56px; }
+.relacionados h2 { font-size: clamp(26px, 3.6vw, 38px); margin: 32px 0 28px; }

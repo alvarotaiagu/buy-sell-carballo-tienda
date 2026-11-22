@@ -1,0 +1,59 @@
+/* Portada: bloques banner (vender), about y visit. El hero, las zonas y la peana tienen su CSS en motivo/. */
+
+/* encaje del hero con esta página: la cabecera es sticky y ocupa su sitio, así que el hero no
+   reserva el dintel y mide la pantalla menos la cabecera; el texto, alineado con .wrap */
+html[data-motif="vitrina"] .hero-vitrina {
+  --vt-dintel: 0px;
+  --vt-max: var(--ancho);
+  --vt-lado: max(var(--gutter), calc((100% - var(--ancho)) / 2 + var(--gutter)));
+  min-height: clamp(520px, calc(100vh - var(--cab-h)), 820px);
+  min-height: clamp(520px, calc(100svh - var(--cab-h)), 820px);
+}
+
+/* banner «Antes de tirar nada, consúltanos»: el morado del logo es lo de vender */
+.b-banner { padding-block: 56px; }
+.banner-in { position: relative; overflow: hidden; display: grid; gap: 28px; align-items: center; padding: clamp(28px, 5vw, 64px); border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--surface), color-mix(in srgb, var(--surface) 80%, var(--bg)));
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--text) 8%, transparent); }
+.b-banner-vender .banner-in { background: linear-gradient(135deg, color-mix(in srgb, var(--motif) 8%, var(--surface)), color-mix(in srgb, var(--motif) 16%, var(--surface))); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--motif) 22%, transparent); }
+@media (min-width: 900px) { .banner-in:has(.banner-foto) { grid-template-columns: 1.3fr 1fr; } }
+.banner-euro { position: absolute; right: -2%; top: 50%; width: auto; height: 140%; aspect-ratio: var(--euro-ar, 1); translate: 0 -50%; color: color-mix(in srgb, var(--motif) 12%, transparent); pointer-events: none; }
+.banner-txt { position: relative; display: grid; gap: 16px; justify-items: start; max-width: 620px; }
+.banner-txt h2 { font-size: clamp(30px, 5vw, 56px); }
+.b-banner-vender .banner-txt h2 em { color: var(--motif); }
+.banner-p { font-size: 18px; color: var(--tinta-suave); max-width: 48ch; }
+.banner-foto { position: relative; margin: 0; }
+
+/* about: quiénes son, con la foto de la tienda enmarcada en su balda */
+.b-about { padding-block: 72px; }
+.about-in { display: grid; gap: 40px; align-items: center; }
+@media (min-width: 900px) { .about-in { grid-template-columns: 5fr 7fr; gap: 72px; } }
+.about-foto { margin: 0; display: grid; justify-items: center; }
+.about-foto .foto-enmarcada { width: 86%; transform: perspective(900px) rotateX(3deg) rotate(-1deg); transform-origin: 50% 100%; }
+.about-foto .balda-corta { width: 100%; margin-top: -2px; }
+.about-txt { display: grid; gap: 18px; }
+.about-txt h2 { font-size: clamp(30px, 4.6vw, 52px); }
+.about-txt .texto-rico { max-width: 60ch; color: var(--tinta-suave); }
+.about-txt .texto-rico .entradilla { color: var(--text); }
+
+/* visit */
+.b-visit { padding-block: 72px 24px; }
+.visit-in { display: grid; gap: 36px; }
+@media (min-width: 900px) { .visit-in { grid-template-columns: 1fr 1fr; gap: 64px; align-items: stretch; } }
+.visit-datos { display: grid; gap: 18px; align-content: start; }
+.visit-datos h2 { font-size: clamp(30px, 4.6vw, 52px); }
+.visit-datos address { font-style: normal; font-size: 18px; }
+.horario { border-collapse: collapse; width: 100%; max-width: 440px; font-size: 15px; }
+.horario caption { text-align: left; font: 500 12px/1.4 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding-bottom: 8px; }
+.horario th, .horario td { padding: 9px 0; border-bottom: 1px solid var(--line); text-align: left; font-weight: 400; }
+.horario td { text-align: right; }
+.visit-botones { display: flex; flex-wrap: wrap; gap: 10px; }
+.visit-mapa { min-height: 320px; border-radius: var(--radius); overflow: hidden; box-shadow: inset 0 0 0 1px var(--line); }
+.visit-mapa iframe { display: block; width: 100%; height: 100%; min-height: 320px; border: 0; }
+.mapa-ok { display: grid; place-content: center; justify-items: center; gap: 10px; width: 100%; height: 100%; min-height: 320px; padding: 24px; border: 0; text-align: center;
+  background: repeating-linear-gradient(0deg, transparent 0 39px, color-mix(in srgb, var(--line) 70%, transparent) 39px 40px), repeating-linear-gradient(90deg, transparent 0 39px, color-mix(in srgb, var(--line) 70%, transparent) 39px 40px), var(--surface); }
+.mapa-ovalo { width: 84px; aspect-ratio: var(--ovalo-ar, 400 / 236); background: var(--logo-ovalo) center / contain no-repeat; filter: drop-shadow(0 6px 6px rgb(var(--sombra) / .25)); transition: transform .4s var(--expo); }
+.mapa-ok:hover .mapa-ovalo { transform: translateY(-4px); }
+.mapa-txt { font-weight: 600; font-size: 17px; }
+.mapa-nota { font-size: 13px; color: var(--muted); max-width: 32ch; }
+.mapa-ok:focus-visible { outline: none; box-shadow: inset var(--foco); }

@@ -1,0 +1,36 @@
+/* Motivo «vitrina» · bloque de categorías «zonas» (boceto D, el menú): una parcela por departamento. */
+.b-zonas { padding-block: 72px 56px; }
+.b-cab { margin-bottom: 28px; }
+.b-cab h2 { font-size: clamp(30px, 4.6vw, 52px); max-width: 20ch; }
+.zonas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+@media (min-width: 900px) { .zonas { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; } }
+.zona a {
+  position: relative; display: block; overflow: hidden; aspect-ratio: 4 / 4.6; border-radius: var(--radius); text-decoration: none; isolation: isolate;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--text) 9%, transparent), 0 10px 26px -18px rgb(var(--sombra) / .5);
+  transition: box-shadow .3s, transform .45s var(--expo);
+}
+@media (min-width: 900px) { .zona a { aspect-ratio: 16 / 11; } }
+.zona a:hover { box-shadow: 0 0 0 1px color-mix(in srgb, var(--text) 18%, transparent), 0 18px 34px -18px rgb(var(--sombra) / .55); }
+.zona a:focus-visible { outline: none; box-shadow: var(--foco); }
+.zona-txt { position: absolute; z-index: 2; left: 14px; right: 14px; top: 14px; display: grid; gap: 4px; }
+.zona-nombre { font: 600 clamp(16px, 2vw, 22px) / 1.12 var(--font-heading); letter-spacing: -0.02em; text-wrap: balance; }
+.zona-num { font-size: 12px; color: var(--muted); }
+.zona-arts { position: absolute; z-index: 1; left: 8%; right: 8%; top: 32%; display: flex; align-items: flex-end; justify-content: center; gap: 4%; }
+/* el suelo de cada material: donde se apoyan los artículos */
+.zona[data-material="cesped"] .zona-arts { bottom: 18%; }
+.zona[data-material="mostrador"] .zona-arts { bottom: 24%; }
+.zona[data-material="suelo"] .zona-arts { bottom: 20%; }
+.zona[data-material="vidrio"] .zona-arts { bottom: calc(34% + 9px); top: 36%; }
+.zona[data-material="balda"] .zona-arts { bottom: calc(30% + 12px); top: 36%; }
+.zona[data-material="ganchos"] .zona-arts, .zona[data-material="pared"] .zona-arts { bottom: 10%; top: 40%; }
+.zona-art { position: relative; display: flex; align-items: flex-end; justify-content: center; flex: 0 1 auto; height: 100%; max-width: 46%; }
+.zona-arts.n1 .zona-art { max-width: 70%; }
+.zona-art img { max-height: 100%; width: auto; max-width: 100%; object-fit: contain; filter: drop-shadow(0 8px 6px rgb(var(--sombra) / .25)); transition: transform .5s var(--expo); }
+.zona-art::after { content: ""; position: absolute; left: 6%; right: 6%; bottom: -5px; height: 10px; border-radius: 50%; background: radial-gradient(closest-side, rgb(var(--sombra) / .34), transparent); z-index: -1; }
+.zona a:hover .zona-art img { transform: translateY(calc(-4px - var(--i) * 2px)); }
+.zona-hueco { width: 50%; }
+.zona-hueco .hueco { width: 100%; }
+@media (max-width: 899px) {
+  .zona-arts { left: 6%; right: 6%; top: 40%; }
+  .zona-art:nth-child(3) { display: none; }
+}

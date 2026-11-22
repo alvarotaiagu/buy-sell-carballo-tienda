@@ -1,0 +1,15 @@
+/* Categoría, novedades, rebajas y búsqueda (el listado de la plataforma, tematizado). */
+.chips { list-style: none; display: flex; gap: 8px; margin: 24px 0 8px; padding: 0 0 8px; overflow-x: auto; scrollbar-width: thin; }
+.chips a { display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 14px 0 6px; border-radius: 20px; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line);
+  font-size: 14px; font-weight: 500; text-decoration: none; white-space: nowrap; }
+.chips .mat-muestra { width: 28px; height: 28px; border-radius: 50%; }
+.chips a:hover { box-shadow: inset 0 0 0 1px var(--text); }
+.chips a[aria-current="page"] { background: var(--text); color: var(--surface); box-shadow: none; }
+.listado-barra { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin: 16px 0 24px; }
+.listado-num { font-size: 13px; color: var(--muted); }
+.orden { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; color: var(--muted); }
+.orden select { height: 40px; padding: 0 12px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--text); }
+.listado-vacio { display: grid; justify-items: start; gap: 14px; padding: 24px 0 48px; color: var(--muted); max-width: 56ch; }
+.buscador { display: flex; gap: 8px; margin-top: 18px; max-width: 560px; }
+.buscador input { flex: 1; min-width: 0; height: 48px; padding: 0 14px; border: 1px solid color-mix(in srgb, var(--text) 30%, transparent); border-radius: var(--radius); background: var(--surface); font-size: 16px; }
+.buscador input:focus-visible { outline: none; box-shadow: var(--foco); }

@@ -1,0 +1,15 @@
+/* Páginas propias y 404. Sin movimiento. «Véndenos lo tuyo» lleva el morado del logo. */
+.pagina-cab { position: relative; overflow: hidden; padding-block: 32px 48px; border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--surface), var(--bg)); }
+.pagina-cab h1 { position: relative; z-index: 1; font-size: clamp(36px, 7vw, 72px); max-width: 16ch; }
+.pagina-vender .pagina-cab { background: linear-gradient(135deg, color-mix(in srgb, var(--motif) 8%, var(--surface)), color-mix(in srgb, var(--motif) 18%, var(--surface))); }
+.pagina-vender .pagina-cab h1 em { color: var(--motif); }
+.pagina-euro { position: absolute; right: 4%; bottom: -18%; width: auto; height: 130%; aspect-ratio: var(--euro-ar, 1); color: color-mix(in srgb, var(--motif) 14%, transparent); pointer-events: none; }
+.pagina-cuerpo { max-width: 760px; padding-block: 40px 24px; font-size: 17px; color: var(--tinta-suave); }
+.pagina-cuerpo .entradilla { color: var(--text); }
+/* el enlace a WhatsApp del texto (008 §5: [enlace](url)) se tematiza como botón; morado en «vender» */
+.pagina-cuerpo a[href^="https://wa.me/"] { display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: var(--radius);
+  background: var(--accent); color: var(--on-accent); font-weight: 500; text-decoration: none; }
+.pagina-vender .pagina-cuerpo a[href^="https://wa.me/"] { background: var(--motif); }
+.pagina-cuerpo a[href^="https://wa.me/"]:hover { background: color-mix(in srgb, var(--accent) 86%, var(--surface)); }
+.pagina-vender .pagina-cuerpo a[href^="https://wa.me/"]:hover { background: color-mix(in srgb, var(--motif) 86%, var(--text)); }

@@ -1,0 +1,5629 @@
+{
+  "tienda": {
+    "nombre": "Buy & Sell",
+    "sector": "generico",
+    "telefono": "607 896 432",
+    "whatsapp": "607 896 432",
+    "email": "buyysell@hotmail.com",
+    "instagram": "https://www.instagram.com/buyysellcarballo/",
+    "facebook": "https://www.facebook.com/p/Buy-Sell-Carballo-100054573664492/",
+    "direccion": {
+      "calle": "Rúa Estrela, 18 bajo",
+      "cp": "15100",
+      "localidad": "Carballo",
+      "provincia": "A Coruña"
+    },
+    "horario": {
+      "semana": {
+        "mon": [
+          [
+            "10:00",
+            "14:00"
+          ],
+          [
+            "16:00",
+            "20:30"
+          ]
+        ],
+        "tue": [
+          [
+            "10:00",
+            "14:00"
+          ],
+          [
+            "16:00",
+            "20:30"
+          ]
+        ],
+        "wed": [
+          [
+            "10:00",
+            "14:00"
+          ],
+          [
+            "16:00",
+            "20:30"
+          ]
+        ],
+        "thu": [
+          [
+            "10:00",
+            "14:00"
+          ],
+          [
+            "16:00",
+            "20:30"
+          ]
+        ],
+        "fri": [
+          [
+            "10:00",
+            "14:00"
+          ],
+          [
+            "16:00",
+            "20:30"
+          ]
+        ],
+        "sat": [
+          [
+            "10:00",
+            "14:00"
+          ]
+        ]
+      },
+      "excepciones": []
+    },
+    "envio_gratis_desde_cents": null,
+    "politicas": {
+      "envio": null,
+      "recogida": "Puedes recoger tu compra en la tienda, en Rúa Estrela, 18 bajo (Carballo), en su horario. Pagas con tarjeta o Bizum.",
+      "devoluciones": null,
+      "devolucion_dias": 14
+    },
+    "hide_sold_out": true,
+    "features": {
+      "pickup": true,
+      "local_delivery": true,
+      "manual_orders": true
+    },
+    "seo": {
+      "titulo": "Buy & Sell · Compraventa de segunda mano en Carballo",
+      "descripcion": "Móviles, consolas, informática, herramienta, patinetes, coleccionismo y mucho más de segunda mano en Rúa Estrela, 18 (Carballo). Compramos, vendemos y reparamos."
+    },
+    "legal": {
+      "razon_social": null,
+      "cif": null,
+      "domicilio_social": null
+    },
+    "_horario_pendiente": "hay tres versiones; este es el de su cartel de 2024",
+    "_entrega": {
+      "reparto": "[PENDIENTE: zona, precio y franjas]",
+      "envio": "[PENDIENTE: tarifas]"
+    },
+    "_garantia": null
+  },
+  "contenido": {
+    "_nota": "Textos de la tienda (stores.content). Los [PENDIENTE] se confirman con el dueño.",
+    "announcement": {
+      "enabled": true,
+      "text": "Reparación de todo tipo y liberación de móviles desde 5 €"
+    },
+    "hero": {
+      "kicker": "Rúa Estrela, 18 · Carballo",
+      "title": "Llena de cosas que ni te puedes *imaginar*",
+      "subtitle": "Segunda mano y algo nuevo: móviles, consolas, herramienta, patinetes, coleccionismo y mucho más. De cada cosa hay una.",
+      "cta_label": "Ver lo último"
+    },
+    "headings": {
+      "cats": {
+        "kicker": "Por zonas",
+        "title": "Recorre la tienda por *departamentos*"
+      },
+      "nuevo": {
+        "kicker": "Recién llegado",
+        "title": "Lo último que ha *entrado*"
+      },
+      "visit": {
+        "kicker": "Visítanos",
+        "title": "En Rúa Estrela, *18*"
+      }
+    },
+    "banner": {
+      "enabled": true,
+      "kicker": "Compramos",
+      "title": "Antes de tirar nada, *consúltanos*",
+      "text": "Móviles, consolas, herramienta, patinetes y mucho más. Mándanos unas fotos por WhatsApp y te decimos.",
+      "cta_label": "Véndenos lo tuyo",
+      "image": null,
+      "link": "/vender"
+    },
+    "about": {
+      "enabled": true,
+      "kicker": "Compra venta y reparación",
+      "title": "Una tienda de *todo*, en Carballo",
+      "body": "Buy & Sell es una tienda de compraventa de segunda mano, y algo nuevo, en Rúa Estrela, 18. Está llena de vitrinas, y en cada una hay de todo.\n\n**Compramos** lo que ya no usas. **Vendemos** de todo, y de cada cosa suele haber una. **Reparamos** de todo tipo y liberamos móviles desde 5 €.\n\nTambién somos punto autorizado de **matrículas para patinetes eléctricos** y tenemos repuestos de patinete. En la tienda pagas con tarjeta o con Bizum.",
+      "image": "assets/img/contenido/tienda-vitrina.webp",
+      "_alt": "Vitrina de la tienda con baldas de vidrio y vajilla de cerámica azul y blanca",
+      "_ancho": 880,
+      "_alto": 1100
+    },
+    "footer_note": "Compra venta y reparación",
+    "pages": [
+      {
+        "slug": "vender",
+        "title": "Véndenos *lo tuyo*",
+        "body": "Antes de tirar nada, consúltanos. Compramos artículos de segunda mano: móviles, consolas y videojuegos, informática, herramienta, patinetes, coleccionismo y mucho más.\n\n**Cómo empezar:** mándanos por WhatsApp unas fotos del artículo y cuéntanos cómo está y qué incluye.\n\n[PENDIENTE: qué compran y qué no, cómo pagan y si piden identificación al comprar a particulares]\n\n[Escríbenos por WhatsApp](https://wa.me/34607896432)"
+      },
+      {
+        "slug": "reparacion",
+        "title": "Reparación",
+        "body": "Reparamos de todo tipo: móviles, consolas, informática, patinetes eléctricos y más. Tráelo a la tienda o pregúntanos antes por WhatsApp.\n\n[PENDIENTE: tarifas y plazos]\n\n[Pregúntanos por WhatsApp](https://wa.me/34607896432)"
+      },
+      {
+        "slug": "liberar-movil",
+        "title": "Liberación de móviles",
+        "body": "Liberamos móviles **desde 5 €**. Pregúntanos por tu modelo.\n\n[PENDIENTE: precio por modelo y plazo]\n\n[Pregúntanos por WhatsApp](https://wa.me/34607896432)"
+      },
+      {
+        "slug": "matriculas-patinete",
+        "title": "Matrículas para patinetes",
+        "body": "Somos punto autorizado de matrículas para patinetes eléctricos: te la imprimimos en la tienda. También tenemos repuestos, ruedas y cámaras de patinete.\n\n[PENDIENTE: precio y qué papeles hay que traer]"
+      },
+      {
+        "slug": "reparto",
+        "title": "Reparto a casa",
+        "body": "Llevamos tus compras a casa con nuestro coche.\n\n[PENDIENTE: zona, precio y plazos. Con Teiron anuncian «en menos de 24 horas y gratis»; falta confirmar si vale para sus propias ventas]"
+      }
+    ],
+    "email_logo": "assets/brand/logo-email.png"
+  },
+  "categorias": [
+    {
+      "id": "cat-moviles-informatica",
+      "nombre": "Móviles e informática",
+      "slug": "moviles-informatica",
+      "descripcion": "Móviles, tabletas, portátiles, placas base, memoria y otros equipos informáticos.",
+      "icono": null
+    },
+    {
+      "id": "cat-consolas-videojuegos",
+      "nombre": "Consolas y videojuegos",
+      "slug": "consolas-videojuegos",
+      "descripcion": "Consolas de varias generaciones y videojuegos en caja.",
+      "icono": null
+    },
+    {
+      "id": "cat-coleccionismo",
+      "nombre": "Coleccionismo",
+      "slug": "coleccionismo",
+      "descripcion": "Figuras, Funko Pop, fundas para cartas y artículos de colección.",
+      "icono": null
+    },
+    {
+      "id": "cat-imagen-sonido",
+      "nombre": "Imagen y sonido",
+      "slug": "imagen-sonido",
+      "descripcion": "Soportes de televisión, jukebox y un telescopio.",
+      "icono": null
+    },
+    {
+      "id": "cat-herramienta-jardin",
+      "nombre": "Herramienta y jardín",
+      "slug": "herramienta-jardin",
+      "descripcion": "Motosierras, sopladores, caladoras, taladros, medidores y herramienta eléctrica y manual.",
+      "icono": "herramientas"
+    },
+    {
+      "id": "cat-movilidad",
+      "nombre": "Movilidad",
+      "slug": "movilidad",
+      "descripcion": "Patinetes eléctricos, scooter, bicicletas, llantas, neumáticos, cascos y ayudas a la movilidad.",
+      "icono": null
+    },
+    {
+      "id": "cat-hogar",
+      "nombre": "Hogar",
+      "slug": "hogar",
+      "descripcion": "Frigoríficos, lavadoras, deshumidificadores, pequeño electrodoméstico y menaje.",
+      "icono": null
+    },
+    {
+      "id": "cat-musica-deporte-pesca",
+      "nombre": "Música, deporte y pesca",
+      "slug": "musica-deporte-pesca",
+      "descripcion": "Instrumentos, amplificadores, surfskates, longboards y material deportivo.",
+      "icono": null
+    },
+    {
+      "id": "cat-arte-antiguedades",
+      "nombre": "Arte y antigüedades",
+      "slug": "arte-antiguedades",
+      "descripcion": "Cuadros, figuras decorativas y libros antiguos.",
+      "icono": null
+    }
+  ],
+  "productos": [
+    {
+      "id": "w-xzog5e9yn4j9",
+      "slug": "motosierra-husqvarna-special-365",
+      "titulo": "Motosierra Husqvarna Special 365",
+      "descripcion": "Como nuevo.\n\nMotosierra Husqvarna modelo Special 365 de color naranja. Espadín de gran longitud, empuñadura ergonómica y arranque manual.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 39900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/motosierra-husqvarna-special-365-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/motosierra-husqvarna-special-365-1321725809"
+    },
+    {
+      "id": "w-ejkmv1l8erzx",
+      "slug": "patinete-electrico-xiaomi-ultra-6",
+      "titulo": "Patinete eléctrico Xiaomi Ultra 6",
+      "descripcion": "Patinete eléctrico Xiaomi Ultra 6 negro con detalles en amarillo. Plataforma amplia para los pies y caballete lateral integrado.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 59900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/patinete-electrico-xiaomi-ultra-6-1.webp",
+        "fotos/patinete-electrico-xiaomi-ultra-6-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/patinete-electrico-xiaomi-ultra-6-1321743371"
+    },
+    {
+      "id": "w-ejkmv1ygmqzx",
+      "slug": "longboard-teiron-con-pegatinas",
+      "titulo": "Longboard Teiron con pegatinas",
+      "descripcion": "Como nuevo.\n\nLongboard Teiron con la tabla de madera natural decorada con pegatinas. Ejes metálicos y ruedas negras de tamaño estándar.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/longboard-teiron-con-pegatinas-1.webp",
+        "fotos/longboard-teiron-con-pegatinas-2.webp",
+        "fotos/longboard-teiron-con-pegatinas-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          337,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/longboard-teiron-con-pegatinas-1321739295"
+    },
+    {
+      "id": "w-qjwrkm3ggg6o",
+      "slug": "surfskate-con-diseno-estampado",
+      "titulo": "Surfskate con diseño estampado",
+      "descripcion": "Buen estado.\n\nSurfskate de base blanca con detalles en rojo y pegatinas en la parte superior. Ejes metálicos y ruedas de color rojizo.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": 12000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/surfskate-con-diseno-estampado-1.webp",
+        "fotos/surfskate-con-diseno-estampado-2.webp",
+        "fotos/surfskate-con-diseno-estampado-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          422,
+          1173
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/surfskate-con-diseno-estampado-1321734277"
+    },
+    {
+      "id": "w-pj94o8welk6e",
+      "slug": "surfskate-mb-surfskates",
+      "titulo": "Surfskate MB Surfskates",
+      "descripcion": "Como nuevo.\n\nSurfskate MB Surfskates con la tabla estampada en rayas verticales de tonos cálidos. Ejes metálicos y ruedas oscuras.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": 9900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": true,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/surfskate-mb-surfskates-1.webp",
+        "fotos/surfskate-mb-surfskates-2.webp",
+        "fotos/surfskate-mb-surfskates-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          435,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/surfskate-mb-surfskates-1321733137"
+    },
+    {
+      "id": "w-vjre0lw1p9zk",
+      "slug": "soplador-y-aspirador-stihl-sh-56",
+      "titulo": "Soplador y aspirador Stihl SH 56",
+      "descripcion": "Como nuevo.\n\nSoplador y aspirador Stihl SH 56. Tubo de soplado largo y carcasa clara con rejilla protectora naranja.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 22900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": true,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/soplador-y-aspirador-stihl-sh-56-1.webp",
+        "fotos/soplador-y-aspirador-stihl-sh-56-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          773,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/soplador-y-aspirador-stihl-sh-56-1321731891"
+    },
+    {
+      "id": "w-xzog5ep38wj9",
+      "slug": "motosierra-husqvarna-136",
+      "titulo": "Motosierra Husqvarna 136",
+      "descripcion": "Buen estado. Incluye la espada de corte.\n\nMotosierra Husqvarna modelo 136 de color naranja, con sistema Air Injection.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 19900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/motosierra-husqvarna-136-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/motosierra-husqvarna-136-1321731133"
+    },
+    {
+      "id": "w-qjwrkm0k8q6o",
+      "slug": "motosierra-stihl-ms-251",
+      "titulo": "Motosierra Stihl MS 251",
+      "descripcion": "Buen estado.\n\nMotosierra Stihl MS 251.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 39900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/motosierra-stihl-ms-251-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/stihl-ms251-1321725105"
+    },
+    {
+      "id": "w-9jdwl52kn26k",
+      "slug": "frigorifico-combi-bosch-blanco",
+      "titulo": "Frigorífico combi Bosch blanco",
+      "descripcion": "Como nuevo.\n\nFrigorífico combi Bosch blanco, de dos puertas y estructura vertical compacta.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 29900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/frigorifico-combi-bosch-blanco-1.webp",
+        "fotos/frigorifico-combi-bosch-blanco-2.webp",
+        "fotos/frigorifico-combi-bosch-blanco-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          456,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/frigorifico-combi-bosch-blanco-1306924036"
+    },
+    {
+      "id": "w-x6qqpre7py6y",
+      "slug": "frigorifico-para-bebidas",
+      "titulo": "Frigorífico para bebidas",
+      "descripcion": "Buen estado.\n\nRango de temperatura de +2 a +8 °C y refrigeración con ventilador incorporado. Cuatro estantes ajustables con capacidad de carga de 40 kg cada uno (53,4 cm de ancho por 38 cm de fondo). Puerta de cierre automático con cerradura y llave. Panel de control mecánico. Dos patas fijas delante, dos ruedas giratorias detrás, iluminación interior LED y separador de pared.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 39900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/frigorifico-para-bebidas-1.webp",
+        "fotos/frigorifico-para-bebidas-2.webp",
+        "fotos/frigorifico-para-bebidas-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          511,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/frigorifico-para-bebidas-1321724090"
+    },
+    {
+      "id": "w-ejkmv1on0pzx",
+      "slug": "cuadro-del-artista-navarro-costa",
+      "titulo": "Cuadro del artista Navarro Costa",
+      "descripcion": "Como nuevo.\n\nCuadro del artista Navarro Costa.",
+      "categoria_id": "cat-arte-antiguedades",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/cuadro-del-artista-navarro-costa-1.webp",
+        "fotos/cuadro-del-artista-navarro-costa-2.webp",
+        "fotos/cuadro-del-artista-navarro-costa-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/cuadro-artista-navarro-costa-1321720471"
+    },
+    {
+      "id": "w-x6qqpre2v56y",
+      "slug": "cuadro-al-oleo-de-navarro-costa",
+      "titulo": "Cuadro al óleo de Navarro Costa",
+      "descripcion": "Como nuevo.\n\nObra firmada por el artista Navarro Costa que representa una escena costera con barcas y arquitectura tradicional. Marco de madera con detalles dorados y lienzo texturizado.",
+      "categoria_id": "cat-arte-antiguedades",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-11-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/cuadro-al-oleo-de-navarro-costa-1.webp",
+        "fotos/cuadro-al-oleo-de-navarro-costa-2.webp",
+        "fotos/cuadro-al-oleo-de-navarro-costa-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/cuadro-al-oleo-de-navarro-costa-1321719742"
+    },
+    {
+      "id": "w-vjrew22vn8zk",
+      "slug": "memoria-ram-corsair-vengeance-ddr5-32-gb",
+      "titulo": "Memoria RAM Corsair Vengeance DDR5 32 GB",
+      "descripcion": "Nuevo.\n\nMemoria RAM Corsair Vengeance DDR5 de 32 GB.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-24",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/memoria-ram-corsair-vengeance-ddr5-32-gb-1.webp",
+        "fotos/memoria-ram-corsair-vengeance-ddr5-32-gb-2.webp",
+        "fotos/memoria-ram-corsair-vengeance-ddr5-32-gb-3.webp",
+        "fotos/memoria-ram-corsair-vengeance-ddr5-32-gb-4.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/corsair-vengeance-ddr5-32gb-ram-1303444767"
+    },
+    {
+      "id": "w-pj94onvgp26e",
+      "slug": "pac-man-para-game-boy",
+      "titulo": "Pac-Man para Game Boy",
+      "descripcion": "Como nuevo. Edición original con caja.\n\nVideojuego Pac-Man para la Game Boy de Nintendo.",
+      "categoria_id": "cat-consolas-videojuegos",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-23",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/pac-man-para-game-boy-1.webp",
+        "fotos/pac-man-para-game-boy-2.webp",
+        "fotos/pac-man-para-game-boy-3.webp",
+        "fotos/pac-man-para-game-boy-4.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          665,
+          660
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/pac-man-para-game-boy-1316281937"
+    },
+    {
+      "id": "w-3zlmq0ng4njx",
+      "slug": "kirby-s-dream-land-para-game-boy",
+      "titulo": "Kirby's Dream Land para Game Boy",
+      "descripcion": "Como nuevo. Con su caja original.\n\nVideojuego Kirby's Dream Land para la Game Boy.",
+      "categoria_id": "cat-consolas-videojuegos",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-23",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/kirby-s-dream-land-para-game-boy-1.webp",
+        "fotos/kirby-s-dream-land-para-game-boy-2.webp",
+        "fotos/kirby-s-dream-land-para-game-boy-3.webp",
+        "fotos/kirby-s-dream-land-para-game-boy-4.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          638,
+          663
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/kirby-s-dream-land-game-boy-1316280993"
+    },
+    {
+      "id": "w-36e5l09lwk6d",
+      "slug": "bateria-electronica-oqan-qpd-20",
+      "titulo": "Batería electrónica OQAN QPD-20",
+      "descripcion": "Como nuevo. Incluye pedal de bombo.\n\nBatería electrónica OQAN QPD-20 con módulo de control con pantalla digital, pads de percusión con bordes azules y estructura de soporte ajustable.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": 29900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/bateria-electronica-oqan-qpd-20-1.webp",
+        "fotos/bateria-electronica-oqan-qpd-20-2.webp",
+        "fotos/bateria-electronica-oqan-qpd-20-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/bateria-electronica-oqan-qpd-20-1311853887"
+    },
+    {
+      "id": "w-ejk8n0eoprjx",
+      "slug": "cerradura-wolfpack-de-sobreponer",
+      "titulo": "Cerradura Wolfpack de sobreponer",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 1990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/cerradura-wolfpack-de-sobreponer-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/cerradura-1063794995"
+    },
+    {
+      "id": "w-xzo2yxrm0469",
+      "slug": "llantas-a4-s-line-de-17-pulgadas",
+      "titulo": "Llantas A4 S line de 17 pulgadas",
+      "descripcion": "Estado aceptable. Se entregan sin neumáticos.\n\nLlantas para reparar.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 15000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/llantas-a4-s-line-de-17-pulgadas-1.webp",
+        "fotos/llantas-a4-s-line-de-17-pulgadas-2.webp",
+        "fotos/llantas-a4-s-line-de-17-pulgadas-3.webp",
+        "fotos/llantas-a4-s-line-de-17-pulgadas-4.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/llantas-a4-sline-17-1133079833"
+    },
+    {
+      "id": "w-4z4ew01w9wjy",
+      "slug": "llantas-volkswagen-touareg",
+      "titulo": "Llantas Volkswagen Touareg",
+      "descripcion": "Buen estado. Incluye dos neumáticos como nuevos y dos para cambiar.\n\nCuatro llantas completas Volkswagen Touareg.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 23000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": true,
+      "creado": "2026-10-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/llantas-volkswagen-touareg-1.webp",
+        "fotos/llantas-volkswagen-touareg-2.webp",
+        "fotos/llantas-volkswagen-touareg-3.webp",
+        "fotos/llantas-volkswagen-touareg-4.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          819,
+          720
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/llantas-volkswagen-tuareg-1133083414"
+    },
+    {
+      "id": "w-vjrqvxy0ywzk",
+      "slug": "llantas-motorsport-multitornillo",
+      "titulo": "Llantas Motorsport multitornillo",
+      "descripcion": "Buen estado.\n\nLlantas multitornillo.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 35000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/llantas-motorsport-multitornillo-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/llantas-motorsport-1054728019"
+    },
+    {
+      "id": "w-pj95mrgoeoze",
+      "slug": "juego-de-4-llantas-de-18-pulgadas-touareg",
+      "titulo": "Juego de 4 llantas de 18 pulgadas Touareg",
+      "descripcion": "Buen estado. Incluye dos neumáticos Michelin nuevos y dos para cambiar.\n\nJuego de cuatro llantas de 18 pulgadas para Touareg.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 45000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/juego-de-4-llantas-de-18-pulgadas-touareg-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-4-llantas-18-touareg-807596637"
+    },
+    {
+      "id": "w-pzp2ldrppmj3",
+      "slug": "juego-de-4-llantas-volkswagen-t5",
+      "titulo": "Juego de 4 llantas Volkswagen T5",
+      "descripcion": "Cuatro llantas completas con ruedas como nuevas.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 25000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/juego-de-4-llantas-volkswagen-t5-1.webp",
+        "fotos/juego-de-4-llantas-volkswagen-t5-2.webp",
+        "fotos/juego-de-4-llantas-volkswagen-t5-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/4-llantas-vokswagen-t5-1133082350"
+    },
+    {
+      "id": "w-w674mdnd186x",
+      "slug": "neumaticos-goodyear-eagle-f1-255-35-19-96y",
+      "titulo": "Neumáticos Goodyear Eagle F1 255/35/19 96Y",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 40000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/neumaticos-goodyear-eagle-f1-255-35-19-96y-1.webp",
+        "fotos/neumaticos-goodyear-eagle-f1-255-35-19-96y-2.webp",
+        "fotos/neumaticos-goodyear-eagle-f1-255-35-19-96y-3.webp",
+        "fotos/neumaticos-goodyear-eagle-f1-255-35-19-96y-4.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/goodyear-eagle-f1-255-35-19-96y-1131537528"
+    },
+    {
+      "id": "w-pzpkp48395j3",
+      "slug": "scooter-peugeot-kisbee-50-negra",
+      "titulo": "Scooter Peugeot Kisbee 50 negra",
+      "descripcion": "Scooter Peugeot Kisbee 50 de color negro con acabado brillante. Faro delantero integrado en el carenado y manillar con puños ergonómicos.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-10-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/scooter-peugeot-kisbee-50-negra-1.webp",
+        "fotos/scooter-peugeot-kisbee-50-negra-2.webp",
+        "fotos/scooter-peugeot-kisbee-50-negra-3.webp",
+        "fotos/scooter-peugeot-kisbee-50-negra-4.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/peugeot-kisbee-50-negra-1311849274"
+    },
+    {
+      "id": "w-wzyrkkx8we65",
+      "slug": "placa-base-msi-b850-gaming-plus-wifi",
+      "titulo": "Placa base MSI B850 Gaming Plus WIFI",
+      "descripcion": "Nuevo, sin abrir.\n\nPlaca base MSI B850 Gaming Plus con WIFI. Compatible con procesadores AMD Ryzen 9000, memoria DDR5, PCIe 5.0 y overclocking.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 15900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": true,
+      "creado": "2026-09-21",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/placa-base-msi-b850-gaming-plus-wifi-1.webp",
+        "fotos/placa-base-msi-b850-gaming-plus-wifi-2.webp",
+        "fotos/placa-base-msi-b850-gaming-plus-wifi-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          832,
+          665
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/msi-b850-gaming-plus-wifi-placa-base-nueva-1304331120"
+    },
+    {
+      "id": "w-xzog74e0plj9",
+      "slug": "trombon-roy-benson-tt-127f",
+      "titulo": "Trombón Roy Benson TT-127F",
+      "descripcion": "Buen estado.\n\nTrombón Roy Benson TT-127F dorado, con acabado en latón.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-07-03",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/trombon-roy-benson-tt-127f-1.webp",
+        "fotos/trombon-roy-benson-tt-127f-2.webp",
+        "fotos/trombon-roy-benson-tt-127f-3.webp",
+        "fotos/trombon-roy-benson-tt-127f-4.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          231,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/trombon-roy-benson-tt-127f-1224246409"
+    },
+    {
+      "id": "w-36e58rw8yk6d",
+      "slug": "lavadora-aeg-6000-series-lavamat-8-kg",
+      "titulo": "Lavadora AEG 6000 Series Lavamat 8 kg",
+      "descripcion": "Nuevo.\n\nLavadora AEG 6000 Series Lavamat con tecnología ProSense. Capacidad de carga de 8 kg, color blanco.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 48900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": true,
+      "creado": "2026-06-11",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/lavadora-aeg-6000-series-lavamat-8-kg-1.webp",
+        "fotos/lavadora-aeg-6000-series-lavamat-8-kg-2.webp",
+        "fotos/lavadora-aeg-6000-series-lavamat-8-kg-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          899,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/lavadora-aeg-6000-series-lavamat-8kg-1207033239"
+    },
+    {
+      "id": "w-v6gg31n5q26e",
+      "slug": "fundas-para-cartas",
+      "titulo": "Fundas para cartas",
+      "descripcion": "Nuevo.\n\nFunda protectora para cartas.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 399,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/fundas-para-cartas-1.webp",
+        "fotos/fundas-para-cartas-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-fundas-para-cartas-1060199788"
+    },
+    {
+      "id": "w-qjw4gr9vvwzo",
+      "slug": "crepera",
+      "titulo": "Crepera",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 1990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/crepera-1.webp",
+        "fotos/crepera-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          872,
+          788
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/crepera-1061178929"
+    },
+    {
+      "id": "w-qzme0odk1xjv",
+      "slug": "clavadora-total-tat81",
+      "titulo": "Clavadora Total TAT81",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 3990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/clavadora-total-tat81-1.webp",
+        "fotos/clavadora-total-tat81-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/clavadora-total-tat81-1061928880"
+    },
+    {
+      "id": "w-nz04xdg4pdjo",
+      "slug": "patinete-electrico-xiaomi-pro-2",
+      "titulo": "Patinete eléctrico Xiaomi Pro 2",
+      "descripcion": "Muy buen estado.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 34900,
+      "precio_anterior_cents": 41900,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/patinete-electrico-xiaomi-pro-2-1.webp",
+        "fotos/patinete-electrico-xiaomi-pro-2-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/xiaomi-pro-2-1054733027",
+      "_ejemplo": "Precio anterior inventado para probar las rebajas"
+    },
+    {
+      "id": "w-nz04182593jo",
+      "slug": "congrap-pn650",
+      "titulo": "Congrap PN650",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/congrap-pn650-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/congrap-pn650-1061169999"
+    },
+    {
+      "id": "w-w674n7lmp76x",
+      "slug": "super-bit",
+      "titulo": "Super:bit",
+      "descripcion": "Nuevo, sin abrir.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 1290,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/super-bit-1.webp",
+        "fotos/super-bit-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/super-bit-1061889776"
+    },
+    {
+      "id": "w-0j24o1xyddzy",
+      "slug": "caladora-black-decker-cd301",
+      "titulo": "Caladora Black+Decker CD301",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 1990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/caladora-black-decker-cd301-1.webp",
+        "fotos/caladora-black-decker-cd301-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/cazadora-black-and-deberia-cd301-1061933559"
+    },
+    {
+      "id": "w-pj9m0lx4r26e",
+      "slug": "bolsa-de-buceo",
+      "titulo": "Bolsa de buceo",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": 5900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/bolsa-de-buceo-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/bolsa-de-buceo-1063788161"
+    },
+    {
+      "id": "w-3zl8p9p5qq6x",
+      "slug": "fundas-para-cartas-41-x-63-mm",
+      "titulo": "Fundas para cartas 41 x 63 mm",
+      "descripcion": "Nuevo, sin abrir.\n\nFundas para cartas de 41 x 63 mm.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 299,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/fundas-para-cartas-41-x-63-mm-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-fundas-para-cartas-1060210893"
+    },
+    {
+      "id": "w-3zl8p9p84n6x",
+      "slug": "fundas-para-cartas-de-tarot-70-x-120-mm",
+      "titulo": "Fundas para cartas de tarot 70 x 120 mm",
+      "descripcion": "Nuevo, sin abrir.\n\nProtectores para cartas de medida tarot, 70 x 120 mm.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 499,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/fundas-para-cartas-de-tarot-70-x-120-mm-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-fundas-para-cartas-de-tarot-1060206945"
+    },
+    {
+      "id": "w-36e1m5ve3kjd",
+      "slug": "piano-kitwell",
+      "titulo": "Piano Kitwell",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": 75000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/piano-kitwell-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/piano-kitwell-1061177439"
+    },
+    {
+      "id": "w-9jdk1w1dpl6k",
+      "slug": "macbook-pro",
+      "titulo": "MacBook Pro",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 39900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/macbook-pro-1.webp",
+        "fotos/macbook-pro-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/macbook-pro-1061199812"
+    },
+    {
+      "id": "w-pj9mqeknxv6e",
+      "slug": "patinete-electrico-xiaomi-scooter-1s",
+      "titulo": "Patinete eléctrico Xiaomi Scooter 1S",
+      "descripcion": "Buen estado.\n\nHay 3 unidades disponibles.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 27900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/patinete-electrico-xiaomi-scooter-1s-1.webp",
+        "fotos/patinete-electrico-xiaomi-scooter-1s-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/xiaomi-scooter-1s-1054733961"
+    },
+    {
+      "id": "w-nzx4gw7yq5j2",
+      "slug": "caladora-makita-4326",
+      "titulo": "Caladora Makita 4326",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 3990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/caladora-makita-4326-1.webp",
+        "fotos/caladora-makita-4326-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/makita-4326-1061933978"
+    },
+    {
+      "id": "w-nzx4gypl31j2",
+      "slug": "deshumidificador-qlima",
+      "titulo": "Deshumidificador Qlima",
+      "descripcion": "Perfecto estado, funciona.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 8900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/deshumidificador-qlima-1.webp",
+        "fotos/deshumidificador-qlima-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/deshumidificador-qlima-1060219006"
+    },
+    {
+      "id": "w-pj9m0gl5l26e",
+      "slug": "freidora-princess",
+      "titulo": "Freidora Princess",
+      "descripcion": "Perfecto estado, funciona.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 5900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/freidora-princess-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/freidora-princess-1060220513"
+    },
+    {
+      "id": "w-v6gg3pv7yn6e",
+      "slug": "amplificador-roland-micro-cube",
+      "titulo": "Amplificador Roland Micro Cube",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": 8900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/amplificador-roland-micro-cube-1.webp",
+        "fotos/amplificador-roland-micro-cube-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          660,
+          687
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/rolando-micro-cube-1061176788"
+    },
+    {
+      "id": "w-pj9m04e0lk6e",
+      "slug": "palomitero-silvercrest",
+      "titulo": "Palomitero Silvercrest",
+      "descripcion": "Nuevo.\n\nPalomitero de la marca Silvercrest.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 1490,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/palomitero-silvercrest-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/palomitero-1061179537"
+    },
+    {
+      "id": "w-e658dqr0806o",
+      "slug": "simes-pbo8",
+      "titulo": "Simes PBO8",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/simes-pbo8-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/simes-pbo8-1061169548"
+    },
+    {
+      "id": "w-wzy4gr0g0vz5",
+      "slug": "jukebox",
+      "titulo": "Jukebox",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-imagen-sonido",
+      "precio_cents": 19900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/jukebox-1.webp",
+        "fotos/jukebox-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          820,
+          1014
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/jukebox-1061221020"
+    },
+    {
+      "id": "w-e658dqeo7m6o",
+      "slug": "humidificador-jane",
+      "titulo": "Humidificador Jane",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 2490,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/humidificador-jane-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/humidificador-jane-1061182248"
+    },
+    {
+      "id": "w-v6gg377m8l6e",
+      "slug": "figuras-minix-del-athletic-club",
+      "titulo": "Figuras Minix del Athletic Club",
+      "descripcion": "Nuevo, sin abrir.\n\nFiguras de colección de 12 cm, a la venta por separado.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 1500,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/figuras-minix-del-athletic-club-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/figuras-del-atletico-1061794364"
+    },
+    {
+      "id": "w-pj9m0x9ngk6e",
+      "slug": "atornillador-bosch",
+      "titulo": "Atornillador Bosch",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 3990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/atornillador-bosch-1.webp",
+        "fotos/atornillador-bosch-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/atornillador-bosch-1061936137"
+    },
+    {
+      "id": "w-vjrqm99l94zk",
+      "slug": "playstation-4-con-mando-y-un-juego-a-elegir",
+      "titulo": "PlayStation 4 con mando y un juego a elegir",
+      "descripcion": "Perfecto estado. Incluye un mando y un juego a elegir.",
+      "categoria_id": "cat-consolas-videojuegos",
+      "precio_cents": 19900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/playstation-4-con-mando-y-un-juego-a-elegir-1.webp",
+        "fotos/playstation-4-con-mando-y-un-juego-a-elegir-2.webp",
+        "fotos/playstation-4-con-mando-y-un-juego-a-elegir-3.webp",
+        "fotos/playstation-4-con-mando-y-un-juego-a-elegir-4.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          691,
+          906
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/playstation-4---mando-1060079119"
+    },
+    {
+      "id": "w-wzv4d500rqzl",
+      "slug": "plancha-movilfrit",
+      "titulo": "Plancha Movilfrit",
+      "descripcion": "Buen estado, funciona.\n\nPlancha grande.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 50000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/plancha-movilfrit-1.webp",
+        "fotos/plancha-movilfrit-2.webp",
+        "fotos/plancha-movilfrit-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/plancha-movilfrit-1063789089"
+    },
+    {
+      "id": "w-ejk8n9nx9qjx",
+      "slug": "fundas-para-cartas-66-x-91-mm-acabado-brillo",
+      "titulo": "Fundas para cartas 66 x 91 mm, acabado brillo",
+      "descripcion": "Nuevo.\n\nFundas protectoras para cartas de 66 x 91 mm.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 699,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/fundas-para-cartas-66-x-91-mm-acabado-brillo-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-fundas-para-cartas-1060204695"
+    },
+    {
+      "id": "w-w674n723296x",
+      "slug": "caladora-bosch-gst-800-e",
+      "titulo": "Caladora Bosch GST 800 E",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/caladora-bosch-gst-800-e-1.webp",
+        "fotos/caladora-bosch-gst-800-e-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/bosch-gst800e-1061933052"
+    },
+    {
+      "id": "w-nzx4gev9k5j2",
+      "slug": "afeitadora-corporal-philips-series-3000",
+      "titulo": "Afeitadora corporal Philips Series 3000",
+      "descripcion": "En su caja.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 2990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/afeitadora-corporal-philips-series-3000-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/philips-smooth-body-shave-series-3000-1061192354"
+    },
+    {
+      "id": "w-9jdk1w4y9l6k",
+      "slug": "taza-de-hello-kitty",
+      "titulo": "Taza de Hello Kitty",
+      "descripcion": "Nuevo, en su caja.\n\nTaza oficial de Sanrio.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/taza-de-hello-kitty-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/taza-de-hello-kitty-1061196884"
+    },
+    {
+      "id": "w-w674n77y756x",
+      "slug": "figura-de-thegrefg",
+      "titulo": "Figura de TheGrefg",
+      "descripcion": "Nuevo.\n\nFigura de colección Tootdles del streamer TheGrefg.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 500,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/figura-de-thegrefg-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/figura-de-thegrefg-1061796304"
+    },
+    {
+      "id": "w-0j24o17vgvzy",
+      "slug": "amoladora-makita-ga9050",
+      "titulo": "Amoladora Makita GA9050",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/amoladora-makita-ga9050-1.webp",
+        "fotos/amoladora-makita-ga9050-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/makita-ga9050-1061929411"
+    },
+    {
+      "id": "w-vjrqmenvqxzk",
+      "slug": "juegos-de-playstation-4",
+      "titulo": "Juegos de PlayStation 4",
+      "descripcion": "Perfecto estado, con su caja.\n\nJuegos de PlayStation 4, a la venta por separado. Precios a consultar.",
+      "categoria_id": "cat-consolas-videojuegos",
+      "precio_cents": 990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/juegos-de-playstation-4-1.webp",
+        "fotos/juegos-de-playstation-4-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juegos-de-playstation-4-1061330819"
+    },
+    {
+      "id": "w-p614m8lor265",
+      "slug": "figura-marvel-hulk",
+      "titulo": "Figura Marvel Hulk",
+      "descripcion": "Nuevo, en su caja.\n\nFigura Marvel Hulk de tamaño mediano-grande.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 2990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/figura-marvel-hulk-1.webp",
+        "fotos/figura-marvel-hulk-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          583,
+          704
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/figura-marvel-hulk-1061214831"
+    },
+    {
+      "id": "w-nz041vlvr7jo",
+      "slug": "deshumidificador-hiyasu",
+      "titulo": "Deshumidificador Hiyasu",
+      "descripcion": "Perfecto estado, funciona.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 12900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/deshumidificador-hiyasu-1.webp",
+        "fotos/deshumidificador-hiyasu-2.webp",
+        "fotos/deshumidificador-hiyasu-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          810,
+          1051
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/deshumidificador-hiyasu-1060219775"
+    },
+    {
+      "id": "w-v6gg3pvprn6e",
+      "slug": "estatua-de-elefante",
+      "titulo": "Estatua de elefante",
+      "descripcion": "Estado aceptable.\n\nHay dos tamaños: la figura grande cuesta 29,90 € y la pequeña, 25,90 €.",
+      "categoria_id": "cat-arte-antiguedades",
+      "precio_cents": 2990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/estatua-de-elefante-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/estatua-de-elefante-1061175516"
+    },
+    {
+      "id": "w-4z4e3kyn0rjy",
+      "slug": "patinete-electrico-cecotec-bongo-a",
+      "titulo": "Patinete eléctrico Cecotec Bongo A",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 21900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/patinete-electrico-cecotec-bongo-a-1.webp",
+        "fotos/patinete-electrico-cecotec-bongo-a-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/cecotec-bongo-a-1054734514"
+    },
+    {
+      "id": "w-36e1m5v9nnjd",
+      "slug": "taladro-dewalt-dwd522",
+      "titulo": "Taladro Dewalt DWD522",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 12900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/taladro-dewalt-dwd522-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/dewalt-dwd522-1061171787"
+    },
+    {
+      "id": "w-3zl8p9pgen6x",
+      "slug": "fundas-para-cartas-66-x-91-mm-acabado-mate",
+      "titulo": "Fundas para cartas 66 x 91 mm, acabado mate",
+      "descripcion": "Nuevo.\n\nFundas protectoras para cartas de 66 x 91 mm.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 299,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/fundas-para-cartas-66-x-91-mm-acabado-mate-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-fundas-para-cartas-1060205193"
+    },
+    {
+      "id": "w-x6qm1q244qjy",
+      "slug": "freidora-tefal",
+      "titulo": "Freidora Tefal",
+      "descripcion": "En su caja.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/freidora-tefal-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/freidora-tefal-1061190342"
+    },
+    {
+      "id": "w-qjw4gdg07gzo",
+      "slug": "casco-mt-zero",
+      "titulo": "Casco MT Zero",
+      "descripcion": "Perfecto estado.\n\nCasco de moto MT Zero.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 4900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/casco-mt-zero-1.webp",
+        "fotos/casco-mt-zero-2.webp",
+        "fotos/casco-mt-zero-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          812,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/casco-mt-zero-1060214605"
+    },
+    {
+      "id": "w-pzp2x137wmj3",
+      "slug": "ajedrez-de-jabon",
+      "titulo": "Ajedrez de jabón",
+      "descripcion": "Como nuevo. Con todas sus piezas.\n\nAjedrez de jabón.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/ajedrez-de-jabon-1.webp",
+        "fotos/ajedrez-de-jabon-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          826,
+          542
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/ajedrez-jabon-1060196774"
+    },
+    {
+      "id": "w-vjrqmev158zk",
+      "slug": "licuadora-jata",
+      "titulo": "Licuadora Jata",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 3990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/licuadora-jata-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/licuadora-jata-1061191143"
+    },
+    {
+      "id": "w-pj9m04e2qo6e",
+      "slug": "picadora-de-hielo-biffinett",
+      "titulo": "Picadora de hielo Biffinett",
+      "descripcion": "Como nuevo.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 1490,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/picadora-de-hielo-biffinett-1.webp",
+        "fotos/picadora-de-hielo-biffinett-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          546,
+          1169
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/picadora-de-hielo-biffinett-1061181813"
+    },
+    {
+      "id": "w-xzo2wgwrr569",
+      "slug": "portatil-hp",
+      "titulo": "Portátil HP",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 25900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/portatil-hp-1.webp",
+        "fotos/portatil-hp-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/portatil-hp-1061201781"
+    },
+    {
+      "id": "w-4z4e2g2rvwjy",
+      "slug": "lapices-del-barca",
+      "titulo": "Lápices del Barça",
+      "descripcion": "Nuevo.\n\nLápices del Barça.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/lapices-del-barca-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/lapices-del-barca-1060209862"
+    },
+    {
+      "id": "w-vjrqm3o1e8zk",
+      "slug": "soldadura-de-tubo",
+      "titulo": "Soldadura de tubo",
+      "descripcion": "Buen estado, funciona.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 5990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/soldadura-de-tubo-1.webp",
+        "fotos/soldadura-de-tubo-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/soldadura-tubo-1063789791"
+    },
+    {
+      "id": "w-0j24o1x95mzy",
+      "slug": "caladora-hitachi-cj120v",
+      "titulo": "Caladora Hitachi CJ120V",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 5900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/caladora-hitachi-cj120v-1.webp",
+        "fotos/caladora-hitachi-cj120v-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/caladora-hitachi-cj120v-1061932535"
+    },
+    {
+      "id": "w-pzp2x13xk5j3",
+      "slug": "nintendo-64",
+      "titulo": "Nintendo 64",
+      "descripcion": "Perfecto estado, probada, funciona.",
+      "categoria_id": "cat-consolas-videojuegos",
+      "precio_cents": 9900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/nintendo-64-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/nintendo-64-1060197850"
+    },
+    {
+      "id": "w-v6gg37rwl26e",
+      "slug": "maletin",
+      "titulo": "Maletín",
+      "descripcion": "Buen estado, algo deteriorado por los años.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 1550,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/maletin-1.webp",
+        "fotos/maletin-2.webp",
+        "fotos/maletin-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          929,
+          342
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/maletin-1061887588"
+    },
+    {
+      "id": "w-mzn27vx4p2zn",
+      "slug": "deshumidificador-adams",
+      "titulo": "Deshumidificador Adams",
+      "descripcion": "Perfecto estado, funciona.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 11900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/deshumidificador-adams-1.webp",
+        "fotos/deshumidificador-adams-2.webp",
+        "fotos/deshumidificador-adams-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          936,
+          1072
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/deshumidificador-adams-1060218125"
+    },
+    {
+      "id": "w-xzo2wvo89469",
+      "slug": "juego-de-cafe-de-12-servicios",
+      "titulo": "Juego de café de 12 servicios",
+      "descripcion": "Nuevo. Incluye 15 tazas con sus platos.\n\nJuego de café de 12 servicios.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 26000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/juego-de-cafe-de-12-servicios-1.webp",
+        "fotos/juego-de-cafe-de-12-servicios-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-cafe-12serv-1060191809"
+    },
+    {
+      "id": "w-e658dpogxp6o",
+      "slug": "caladora-makita-jv0600",
+      "titulo": "Caladora Makita JV0600",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/caladora-makita-jv0600-1.webp",
+        "fotos/caladora-makita-jv0600-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/caladora-makita-jv0600-1061934872"
+    },
+    {
+      "id": "w-ejk8n9kkppjx",
+      "slug": "nintendo-switch",
+      "titulo": "Nintendo Switch",
+      "descripcion": "Perfecto estado. Los juegos físicos se compran aparte.",
+      "categoria_id": "cat-consolas-videojuegos",
+      "precio_cents": 22900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": true,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/nintendo-switch-1.webp",
+        "fotos/nintendo-switch-2.webp",
+        "fotos/nintendo-switch-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          728,
+          452
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/nintendo-switch-1060082095"
+    },
+    {
+      "id": "w-e658dq27rk6o",
+      "slug": "aire-acondicionado-amcor",
+      "titulo": "Aire acondicionado Amcor",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 14900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/aire-acondicionado-amcor-1.webp",
+        "fotos/aire-acondicionado-amcor-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          747,
+          808
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/aire-acondicionado-amcor-1061189824"
+    },
+    {
+      "id": "w-p614m8l93d65",
+      "slug": "figura-marvel-iron-man",
+      "titulo": "Figura Marvel Iron Man",
+      "descripcion": "Nuevo, en su caja.\n\nFigura Marvel Iron Man de tamaño mediano.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 1990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/figura-marvel-iron-man-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/figura-marvel-ironman-1061213579"
+    },
+    {
+      "id": "w-9jdk4vx4946k",
+      "slug": "conor-8500x",
+      "titulo": "Conor 8500X",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 39900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/conor-8500x-1.webp",
+        "fotos/conor-8500x-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/conor-8500x-1054737036"
+    },
+    {
+      "id": "w-pj9m0g0pd06e",
+      "slug": "hucha-de-los-pj-masks",
+      "titulo": "Hucha de los PJ Masks",
+      "descripcion": "Nuevo.\n\nHucha de la serie infantil PJ Masks.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 399,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/hucha-de-los-pj-masks-1.webp",
+        "fotos/hucha-de-los-pj-masks-2.webp",
+        "fotos/hucha-de-los-pj-masks-3.webp",
+        "fotos/hucha-de-los-pj-masks-4.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/hucha-de-los-pj-mask-1060213261"
+    },
+    {
+      "id": "w-8z8kp8rmd8z3",
+      "slug": "ventosa-wurth",
+      "titulo": "Ventosa Würth",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 8900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/ventosa-wurth-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/ventosa-wurth-1061170422"
+    },
+    {
+      "id": "w-0j24o8k77mzy",
+      "slug": "funko-pop-ron-weasley-44",
+      "titulo": "Funko Pop Ron Weasley [44]",
+      "descripcion": "Nuevo, en su caja.\n\nFunko Pop oficial de Ron Weasley, número 44.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/funko-pop-ron-weasley-44-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/funko-pop-oficial-de-ron-wesley-44-1061195759"
+    },
+    {
+      "id": "w-9jdk1wrx996k",
+      "slug": "figura-marvel-capitan-america",
+      "titulo": "Figura Marvel Capitán América",
+      "descripcion": "Nuevo, en su caja.\n\nFigura Marvel Capitán América de tamaño mediano.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 1990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/figura-marvel-capitan-america-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/figura-mavel-capitan-america-1061214160"
+    },
+    {
+      "id": "w-qjw4g7drokzo",
+      "slug": "bajo-ap-204",
+      "titulo": "Bajo AP 204",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": 27900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/bajo-ap-204-1.webp",
+        "fotos/bajo-ap-204-2.webp",
+        "fotos/bajo-ap-204-3.webp",
+        "fotos/bajo-ap-204-4.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          436,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/bajo-ap-204-1061728629"
+    },
+    {
+      "id": "w-w674nvrmk86x",
+      "slug": "ventosa-stanley",
+      "titulo": "Ventosa Stanley",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 5900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/ventosa-stanley-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/ventosa-stanley-1061170776"
+    },
+    {
+      "id": "w-e658dq2dl26o",
+      "slug": "manta-termica-daga",
+      "titulo": "Manta térmica Daga",
+      "descripcion": "Nuevo.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 4490,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/manta-termica-daga-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/manta-termica-daga-1061193372"
+    },
+    {
+      "id": "w-vjrqmo57rwzk",
+      "slug": "sierra-circular-makita",
+      "titulo": "Sierra circular Makita",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/sierra-circular-makita-1.webp",
+        "fotos/sierra-circular-makita-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/circular-makita-1061929843"
+    },
+    {
+      "id": "w-nz0vxn472vjo",
+      "slug": "standard-horizon-hx370e-sumergible",
+      "titulo": "Standard Horizon HX370E sumergible",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 17900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/standard-horizon-hx370e-sumergible-1.webp",
+        "fotos/standard-horizon-hx370e-sumergible-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          433,
+          888
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/standard-horizon-hx370e-sumergible-676242099"
+    },
+    {
+      "id": "w-nz041vxwl7jo",
+      "slug": "juego-de-te-portico",
+      "titulo": "Juego de té Pórtico",
+      "descripcion": "Nuevo.\n\nJuego de té con 6 tazas grandes y 3 tazas pequeñas.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 18000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/juego-de-te-portico-1.webp",
+        "fotos/juego-de-te-portico-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-te-portico-1060195175"
+    },
+    {
+      "id": "w-w674nv9ky96x",
+      "slug": "batidora-de-vaso",
+      "titulo": "Batidora de vaso",
+      "descripcion": "En su caja.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 8900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/batidora-de-vaso-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/batidora-de-vaso-1061190828"
+    },
+    {
+      "id": "w-pzp2x1xx74j3",
+      "slug": "fundas-para-cartas-dragon-shield",
+      "titulo": "Fundas para cartas Dragon Shield",
+      "descripcion": "Nuevo, sin abrir.\n\nFundas para cartas Dragon Shield.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 899,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/fundas-para-cartas-dragon-shield-1.webp",
+        "fotos/fundas-para-cartas-dragon-shield-2.webp",
+        "fotos/fundas-para-cartas-dragon-shield-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-fundas-para-cartas-1060211802"
+    },
+    {
+      "id": "w-4z4e2nxxrwjy",
+      "slug": "crimpadora-proskit",
+      "titulo": "Crimpadora Proskit",
+      "descripcion": "Nuevo.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 3000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/crimpadora-proskit-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/climpadora-proskit-1061928262"
+    },
+    {
+      "id": "w-9jdk15rxn46k",
+      "slug": "deshumidificador-troia",
+      "titulo": "Deshumidificador Troia",
+      "descripcion": "Perfecto estado, funciona.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 8900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/deshumidificador-troia-1.webp",
+        "fotos/deshumidificador-troia-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/deshumidificador-troia-1060218636"
+    },
+    {
+      "id": "w-nz041vx7yvjo",
+      "slug": "fundas-para-cartas-eclipse-66-x-91-mm",
+      "titulo": "Fundas para cartas Eclipse 66 x 91 mm",
+      "descripcion": "Nuevo.\n\nFundas protectoras para cartas de 66 x 91 mm.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 699,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/fundas-para-cartas-eclipse-66-x-91-mm-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-fundas-para-cartas-1060203675"
+    },
+    {
+      "id": "w-9jdk1wv5826k",
+      "slug": "total-th215002",
+      "titulo": "Total TH215002",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 21900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/total-th215002-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/total-th215002-1061173612"
+    },
+    {
+      "id": "w-mzn27vm2kgzn",
+      "slug": "juego-de-cafe-de-12-tazas",
+      "titulo": "Juego de café de 12 tazas",
+      "descripcion": "Nuevo.\n\nJuego de café con 12 tazas.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 31000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/juego-de-cafe-de-12-tazas-1.webp",
+        "fotos/juego-de-cafe-de-12-tazas-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-cafe-1060193497"
+    },
+    {
+      "id": "w-x6qm1qn7mojy",
+      "slug": "multisocket-8-x-3-m",
+      "titulo": "Multisocket 8 x 3 m",
+      "descripcion": "Nuevo.\n\nMultisocket para 8 tomas.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 2490,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/multisocket-8-x-3-m-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/multisocket-8x3m-1061168966"
+    },
+    {
+      "id": "w-e658d32q0g6o",
+      "slug": "juego-de-cafe-cadrelo",
+      "titulo": "Juego de café Cadrelo",
+      "descripcion": "Nuevo.\n\nJuego de café con 12 tazas.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 24900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/juego-de-cafe-cadrelo-1.webp",
+        "fotos/juego-de-cafe-cadrelo-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-cafe-cadrelo-1060194148"
+    },
+    {
+      "id": "w-qjw4v9e5gkzo",
+      "slug": "btwin-rockrider-540",
+      "titulo": "Btwin Rockrider 540",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 34900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/btwin-rockrider-540-1.webp",
+        "fotos/btwin-rockrider-540-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/btwin-rockrider-540-1054739277"
+    },
+    {
+      "id": "w-nz0418degejo",
+      "slug": "hervidor-jata-ha722",
+      "titulo": "Hervidor Jata HA722",
+      "descripcion": "En su caja.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 1990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/hervidor-jata-ha722-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/hervidor-jata-ha722-1061182699"
+    },
+    {
+      "id": "w-ejk8nm0q89jx",
+      "slug": "jirafa-de-madera-de-caoba",
+      "titulo": "Jirafa de madera de caoba",
+      "descripcion": "Como nuevo.",
+      "categoria_id": "cat-arte-antiguedades",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/jirafa-de-madera-de-caoba-1.webp",
+        "fotos/jirafa-de-madera-de-caoba-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          378,
+          1070
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/jirafa-de-madera-majogany-1061221947"
+    },
+    {
+      "id": "w-pzp2x1m2wlj3",
+      "slug": "deshumidificador",
+      "titulo": "Deshumidificador",
+      "descripcion": "Perfecto estado, funciona.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 9900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/deshumidificador-1.webp",
+        "fotos/deshumidificador-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          688,
+          1053
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/deshumidificador-1060220974"
+    },
+    {
+      "id": "w-8j34k55yoy69",
+      "slug": "funko-pop-neo-de-matrix-1172",
+      "titulo": "Funko Pop Neo de Matrix [1172]",
+      "descripcion": "Nuevo.\n\nFunko Pop oficial de Neo, de Matrix (número 1172). Edición especial que brilla en la oscuridad.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 1890,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/funko-pop-neo-de-matrix-1172-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/funko-pop-neo-de-matrix-1172-1061795234"
+    },
+    {
+      "id": "w-qjw4grgg5kzo",
+      "slug": "la-sagrada-biblia",
+      "titulo": "La Sagrada Biblia",
+      "descripcion": "Estado aceptable.\n\nLa cubierta está algo rota por el paso de los años; el contenido está perfecto.",
+      "categoria_id": "cat-arte-antiguedades",
+      "precio_cents": 3990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/la-sagrada-biblia-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/la-sagrada-biblia-1061207253"
+    },
+    {
+      "id": "w-v6gg37x5pl6e",
+      "slug": "alicates-proskit",
+      "titulo": "Alicates Proskit",
+      "descripcion": "Nuevo.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/alicates-proskit-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/alicates-proskit-1061927588"
+    },
+    {
+      "id": "w-nz0418d3p3jo",
+      "slug": "orbegozo-gran-chef",
+      "titulo": "Orbegozo Gran Chef",
+      "descripcion": "Como nuevo.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 3990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/orbegozo-gran-chef-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/orbegozo-gran-cheff-1061180775"
+    },
+    {
+      "id": "w-pzp2x131n5j3",
+      "slug": "juego-de-cafe-de-6-tazas",
+      "titulo": "Juego de café de 6 tazas",
+      "descripcion": "Nuevo.\n\nJuego de café con 6 tazas y sus platos.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 2990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/juego-de-cafe-de-6-tazas-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-cafe-1060192450"
+    },
+    {
+      "id": "w-8z8kp8lr0dz3",
+      "slug": "soporte-de-tv",
+      "titulo": "Soporte de TV",
+      "descripcion": "Nuevo, en su caja.\n\nSoporte de televisión para pantallas de 20 a 37 pulgadas, hasta 50 kg.",
+      "categoria_id": "cat-imagen-sonido",
+      "precio_cents": 990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/soporte-de-tv-1.webp",
+        "fotos/soporte-de-tv-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/soporte-tv-1061219322"
+    },
+    {
+      "id": "w-qjw4gddwnqzo",
+      "slug": "game-boy-color",
+      "titulo": "Game Boy Color",
+      "descripcion": "Perfecto estado, probadas, funcionan. Los juegos se venden aparte.\n\nGame Boy Color. Los hay en diferentes colores.",
+      "categoria_id": "cat-consolas-videojuegos",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/game-boy-color-1.webp",
+        "fotos/game-boy-color-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          479,
+          974
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/gameboy-color-1060075929"
+    },
+    {
+      "id": "w-pj9m04qmyo6e",
+      "slug": "cafetera-bosch",
+      "titulo": "Cafetera Bosch",
+      "descripcion": "Como nuevo.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 3500,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/cafetera-bosch-1.webp",
+        "fotos/cafetera-bosch-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          590,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/cafetera-bosch-1061188485"
+    },
+    {
+      "id": "w-mzn2737yrkzn",
+      "slug": "figura-marvel-soldado-de-invierno",
+      "titulo": "Figura Marvel Soldado de Invierno",
+      "descripcion": "Nuevo, en su caja.\n\nFigura Marvel Soldado de Invierno de tamaño mediano.",
+      "categoria_id": "cat-coleccionismo",
+      "precio_cents": 1990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/figura-marvel-soldado-de-invierno-1.webp",
+        "fotos/figura-marvel-soldado-de-invierno-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          761,
+          1024
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/figura-de-marvel-soldado-de-invierno-1061212001"
+    },
+    {
+      "id": "w-nzx4gw7001j2",
+      "slug": "caladora-makita-4328",
+      "titulo": "Caladora Makita 4328",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 5900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-06-01",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/caladora-makita-4328-1.webp",
+        "fotos/caladora-makita-4328-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/caladora-makita-4328-1061934454"
+    },
+    {
+      "id": "w-vjrek7xpwxzk",
+      "slug": "silla-de-ruedas-invacare-action-3-ng",
+      "titulo": "Silla de ruedas Invacare Action 3 NG",
+      "descripcion": "Buen estado. Incluye cojín de gel.\n\nSilla de ruedas Invacare Action 3 NG, ligera y fácil de manejar. Color azul y carbono, plegable.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 29900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-05-29",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/silla-de-ruedas-invacare-action-3-ng-1.webp",
+        "fotos/silla-de-ruedas-invacare-action-3-ng-2.webp",
+        "fotos/silla-de-ruedas-invacare-action-3-ng-3.webp",
+        "fotos/silla-de-ruedas-invacare-action-3-ng-4.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/silla-ruedas-invacare-action-3ng-1161374291"
+    },
+    {
+      "id": "w-8z885nm12rz3",
+      "slug": "silla-de-ruedas-electrica-quickie-q50-r",
+      "titulo": "Silla de ruedas eléctrica Quickie Q50 R",
+      "descripcion": "Como nuevo.\n\nSilla de ruedas eléctrica Quickie Q50R, negra con detalles verdes. Reposabrazos acolchados, ruedas traseras con aro verde, joystick de control, reposapiés y respaldo alto.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 99900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-05-21",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/silla-de-ruedas-electrica-quickie-q50-r-1.webp",
+        "fotos/silla-de-ruedas-electrica-quickie-q50-r-2.webp",
+        "fotos/silla-de-ruedas-electrica-quickie-q50-r-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          888,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/silla-de-ruedas-electrica-quickie-q50r-1207956322"
+    },
+    {
+      "id": "w-v6gp379or56e",
+      "slug": "amplificador-vox-ac15",
+      "titulo": "Amplificador Vox AC15",
+      "descripcion": "Como nuevo. Comprado en octubre de 2025.\n\nAmplificador de guitarra Vox AC15 con revestimiento de vinilo negro, panel frontal con el logo VOX dorado y rejilla con patrón de diamantes.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": 60000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-05-21",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/amplificador-vox-ac15-1.webp",
+        "fotos/amplificador-vox-ac15-2.webp",
+        "fotos/amplificador-vox-ac15-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/amplificador-vox-ac15-1253080864"
+    },
+    {
+      "id": "w-4z4ewqdd8vjy",
+      "slug": "iphone-14-pro-max-256-gb-morado",
+      "titulo": "iPhone 14 Pro Max 256 GB morado",
+      "descripcion": "Muy buen estado.\n\niPhone 14 Pro Max de 256 GB, color morado.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 49900,
+      "precio_anterior_cents": 59900,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-04-09",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/iphone-14-pro-max-256-gb-morado-1.webp",
+        "fotos/iphone-14-pro-max-256-gb-morado-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          458,
+          1113
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/iphone-14-pro-max-1134009938",
+      "_ejemplo": "Precio anterior inventado para probar las rebajas"
+    },
+    {
+      "id": "w-qzmeqp205ljv",
+      "slug": "sierra-de-calar-dewalt-dcs331-18-v-xr",
+      "titulo": "Sierra de calar Dewalt DCS331 18 V XR",
+      "descripcion": "Perfecto estado. Incluye dos baterías.\n\nSierra de calar Dewalt DCS331 inalámbrica, de 18 V XR con batería de iones de litio. Color amarillo y gris.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 22000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-03-15",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/sierra-de-calar-dewalt-dcs331-18-v-xr-1.webp",
+        "fotos/sierra-de-calar-dewalt-dcs331-18-v-xr-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          1064,
+          798
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/sierra-de-calar-dewalt-dcs331-18v-xr-1134004508"
+    },
+    {
+      "id": "w-pzp2xk3209j3",
+      "slug": "lavavajillas-zanussi",
+      "titulo": "Lavavajillas Zanussi",
+      "descripcion": "Usado.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 22900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-02-05",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/lavavajillas-zanussi-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/lavavajillas-zanussi-1061188874"
+    },
+    {
+      "id": "w-nzxeqkwye162",
+      "slug": "estufa-de-pellets-negra-de-exterior",
+      "titulo": "Estufa de pellets negra de exterior",
+      "descripcion": "Nuevo.\n\nEstufa de pellets negra con la estructura exterior de rejilla metálica hexagonal y el interior blanco. Base negra cuadrada.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 15900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-02-05",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/estufa-de-pellets-negra-de-exterior-1.webp",
+        "fotos/estufa-de-pellets-negra-de-exterior-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/estufa-de-pellets-negra-1225029478"
+    },
+    {
+      "id": "w-ejk8g51301jx",
+      "slug": "medidor-de-aislamiento-y-continuidad-ht-italia-m70",
+      "titulo": "Medidor de aislamiento y continuidad HT Italia M70",
+      "descripcion": "Buen estado. Incluye pinzas de cocodrilo y funda protectora.\n\nProbador de aislamiento HT Italia M70 ISOTEST.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 35000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2026-01-26",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/medidor-de-aislamiento-y-continuidad-ht-italia-m70-1.webp",
+        "fotos/medidor-de-aislamiento-y-continuidad-ht-italia-m70-2.webp",
+        "fotos/medidor-de-aislamiento-y-continuidad-ht-italia-m70-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          1006,
+          1066
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/multimetro-ht-italia-m70-1134006695"
+    },
+    {
+      "id": "w-e65q7092lk6o",
+      "slug": "frigorifico-combi-bosch-blanco-2",
+      "titulo": "Frigorífico combi Bosch blanco",
+      "descripcion": "Como nuevo.\n\nFrigorífico combi Bosch blanco.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 35000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-12-15",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/frigorifico-combi-bosch-blanco-2-1.webp",
+        "fotos/frigorifico-combi-bosch-blanco-2-2.webp",
+        "fotos/frigorifico-combi-bosch-blanco-2-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/frigorifico-combi-bosch-blanco-1209123424"
+    },
+    {
+      "id": "w-8z88gnkw3lz3",
+      "slug": "telescopio-meade-etx-90-ec",
+      "titulo": "Telescopio Meade ETX-90 EC",
+      "descripcion": "Como nuevo.\n\nTelescopio Meade con montura ecuatorial y trípode de aluminio.",
+      "categoria_id": "cat-imagen-sonido",
+      "precio_cents": 50000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-10-24",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/telescopio-meade-etx-90-ec-1.webp",
+        "fotos/telescopio-meade-etx-90-ec-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/telescopio-meade-1175888294"
+    },
+    {
+      "id": "w-8z8korv4yoz3",
+      "slug": "ipad-air-11-pulgadas-m2-gris",
+      "titulo": "iPad Air 11 pulgadas M2 gris",
+      "descripcion": "Excelentes condiciones.\n\niPad Air de 11 pulgadas con chip M2, 128 GB, gris.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 49900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-10-07",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/ipad-air-11-pulgadas-m2-gris-1.webp",
+        "fotos/ipad-air-11-pulgadas-m2-gris-2.webp",
+        "fotos/ipad-air-11-pulgadas-m2-gris-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/ipad-air-11-m2-gris-morado-1134013246"
+    },
+    {
+      "id": "w-vjrer11ky8zk",
+      "slug": "nicegreen-ultra-etiqueta-negra",
+      "titulo": "Nicegreen Ultra Etiqueta Negra",
+      "descripcion": "Nuevo.\n\nLimpiador multiuso concentrado Nicegreen Ultra, con cloruro de benzalconio. Se diluye en agua: un litro rinde 25.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 2500,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-10-04",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/nicegreen-ultra-etiqueta-negra-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/nicegreen-ultra-etiqueta-negra-1181579343"
+    },
+    {
+      "id": "w-9jdw5gx0wd6k",
+      "slug": "juego-de-petanca-completo",
+      "titulo": "Juego de petanca completo",
+      "descripcion": "Como nuevo. Incluye 6 bolas metálicas, un objetivo de madera y un tirachinas, en caja de madera.\n\nJuego de petanca completo.",
+      "categoria_id": "cat-musica-deporte-pesca",
+      "precio_cents": 3990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-09-22",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/juego-de-petanca-completo-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/juego-de-petanca-completo-1178160336"
+    },
+    {
+      "id": "w-0j28rmw4nejy",
+      "slug": "medidor-laser-bosch-glm-40",
+      "titulo": "Medidor láser Bosch GLM 40",
+      "descripcion": "Buen estado. Incluye funda de transporte.\n\nMedidor láser profesional Bosch GLM 40.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 4990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-09-22",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/medidor-laser-bosch-glm-40-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/medidor-laser-bosch-glm-40-1178153459"
+    },
+    {
+      "id": "w-vjre9lkr4wzk",
+      "slug": "maletin-de-crimpado-coaxial-pro-skit",
+      "titulo": "Maletín de crimpado coaxial Pro'sKit",
+      "descripcion": "Nuevo. Incluye cortador de cable coaxial, pelacables, destornillador y terminales.\n\nMaletín de crimpado coaxial Pro'sKit para preparar y crimpar cables RG. Modelo HRV331 330K.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-09-22",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/maletin-de-crimpado-coaxial-pro-skit-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/maletin-crimpadora-coaxial-pro-skit-1178152891"
+    },
+    {
+      "id": "w-pj94g8ky2k6e",
+      "slug": "nivel-laser-wurth-clg18",
+      "titulo": "Nivel láser Würth CLG18",
+      "descripcion": "Como nuevo. Incluye bolsa de transporte, batería, cargador y portapilas.\n\nNivel láser Würth CLG18.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 35000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-09-22",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/nivel-laser-wurth-clg18-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/nivel-laser-wurth-clg18-1178151961"
+    },
+    {
+      "id": "w-w67vd0n2vy6x",
+      "slug": "monitor-portatil-asus-rog-strix-xg16ahpe-w",
+      "titulo": "Monitor portátil Asus ROG Strix XG16AHPE-W",
+      "descripcion": "Perfecto estado. Se entrega en su caja original.\n\nMonitor portátil gaming Asus ROG Strix XG16AHPE-W.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 29900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-08-29",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/monitor-portatil-asus-rog-strix-xg16ahpe-w-1.webp",
+        "fotos/monitor-portatil-asus-rog-strix-xg16ahpe-w-2.webp",
+        "fotos/monitor-portatil-asus-rog-strix-xg16ahpe-w-3.webp",
+        "fotos/monitor-portatil-asus-rog-strix-xg16ahpe-w-4.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/monitor-asus-rog-strix-xg16ahpe-w-1169037076"
+    },
+    {
+      "id": "w-nz08m04o5v6o",
+      "slug": "brocas-bosch-hss-co-de-1-a-13-mm-25-piezas",
+      "titulo": "Brocas Bosch HSS-CO de 1 a 13 mm, 25 piezas",
+      "descripcion": "Perfecto estado.\n\nJuego de 25 brocas Bosch para metal, de acero rápido HSS-CO, con diámetros de 1 a 13 mm.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7990,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-08-13",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/brocas-bosch-hss-co-de-1-a-13-mm-25-piezas-1.webp",
+        "fotos/brocas-bosch-hss-co-de-1-a-13-mm-25-piezas-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/brocas-bosch-hss-co-25x-1-13mm-1163949051"
+    },
+    {
+      "id": "w-0j28yrw7pnjy",
+      "slug": "cocina-alaska-de-tres-fuegos",
+      "titulo": "Cocina Alaska de tres fuegos",
+      "descripcion": "Nuevo, a estrenar.\n\nCocina Alaska de color crema con tres fuegos y superficie de cristal.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 13900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-08-12",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/cocina-alaska-de-tres-fuegos-1.webp",
+        "fotos/cocina-alaska-de-tres-fuegos-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/cocina-vitroceramica-alaska-1163562559"
+    },
+    {
+      "id": "w-mzn3g5poe7jn",
+      "slug": "bicicleta-de-carretera-haibike-8-30",
+      "titulo": "Bicicleta de carretera Haibike 8.30",
+      "descripcion": "Excelentes condiciones.\n\nBicicleta de carretera Haibike 8.30 con cuadro de carbono y componentes Shimano. Ideal para rutas y paseos.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 49900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-08-05",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/bicicleta-de-carretera-haibike-8-30-1.webp",
+        "fotos/bicicleta-de-carretera-haibike-8-30-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          1024,
+          768
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/bicicleta-carretera-haibike-8-30-1161372925"
+    },
+    {
+      "id": "w-8j38mngpw8z9",
+      "slug": "andador-ara-drakon-1-rojo",
+      "titulo": "Andador Ara Drakon 1 rojo",
+      "descripcion": "Buen estado.\n\nAndador Ara Drakon 1 rojo, plegable, con asiento acolchado y cuatro ruedas.",
+      "categoria_id": "cat-movilidad",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-08-05",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/andador-ara-drakon-1-rojo-1.webp",
+        "fotos/andador-ara-drakon-1-rojo-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/andador-ara-drakon-1-rojo-1161372510"
+    },
+    {
+      "id": "w-4z48ypk1xrjy",
+      "slug": "deshumidificador-comfee-mdpe-50den7-de-50-litros-al-dia",
+      "titulo": "Deshumidificador Comfee MDPE-50DEN7 de 50 litros al día",
+      "descripcion": "Buen estado.\n\nDeshumidificador Comfee MDPE-50DEN7 de 50 litros al día, 220-240 V, potencia máxima absorbida de 1060 W.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 21900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-08-05",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/deshumidificador-comfee-mdpe-50den7-de-50-litros-al-dia-1.webp",
+        "fotos/deshumidificador-comfee-mdpe-50den7-de-50-litros-al-dia-2.webp",
+        "fotos/deshumidificador-comfee-mdpe-50den7-de-50-litros-al-dia-3.webp",
+        "fotos/deshumidificador-comfee-mdpe-50den7-de-50-litros-al-dia-4.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          1064,
+          1081
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/deshumidificador-comfee-mdpe-50den7-50l-dia-1161370786"
+    },
+    {
+      "id": "w-9jdwxl823n6k",
+      "slug": "microsoft-surface-pro-7-negra",
+      "titulo": "Microsoft Surface Pro 7 negra",
+      "descripcion": "Buen estado. Incluye teclado y lápiz óptico.\n\nTablet Microsoft Surface Pro 7 negra. Procesador i5 de décima generación, 8 GB de RAM y 256 GB de disco.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 39900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-08-05",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/microsoft-surface-pro-7-negra-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/microsoft-surface-pro-7-negra-1161315584"
+    },
+    {
+      "id": "w-8z88qx8l2oz3",
+      "slug": "portatil-asus-f515e-i3-gris",
+      "titulo": "Portátil Asus F515E i3 gris",
+      "descripcion": "Muy buen estado.\n\nPortátil Asus F515E gris plata con procesador Intel i3 y pantalla de 15,6 pulgadas.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 28900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-08-05",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/portatil-asus-f515e-i3-gris-1.webp",
+        "fotos/portatil-asus-f515e-i3-gris-2.webp",
+        "fotos/portatil-asus-f515e-i3-gris-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          1064,
+          865
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/portatil-asus-f515e-i3-gris-1161307246"
+    },
+    {
+      "id": "w-pj94k03rn06e",
+      "slug": "tpv-its-con-pantalla-tactil",
+      "titulo": "TPV ITS con pantalla táctil",
+      "descripcion": "Buen estado. Incluye pantalla táctil, cajón portamonedas e impresora.\n\nSistema de punto de venta (TPV) ITS con pantalla táctil integrada.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": null,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-07-30",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/tpv-its-con-pantalla-tactil-1.webp",
+        "fotos/tpv-its-con-pantalla-tactil-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/tpv-its-sistema-punto-de-venta-1159203637"
+    },
+    {
+      "id": "w-mzn3gpw997jn",
+      "slug": "placa-de-induccion-bosch-pxv875dc1e",
+      "titulo": "Placa de inducción Bosch PXV875DC1E",
+      "descripcion": "Nuevo, a estrenar.\n\nPlaca de inducción Bosch PXV875DC1E, impecable y sin ningún rasguño.",
+      "categoria_id": "cat-hogar",
+      "precio_cents": 49900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-07-28",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/placa-de-induccion-bosch-pxv875dc1e-1.webp",
+        "fotos/placa-de-induccion-bosch-pxv875dc1e-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          1024,
+          768
+        ],
+        [
+          675,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/placa-induccion-bosch-pxv875dc1e-1158340597"
+    },
+    {
+      "id": "w-x6qm14g1eojy",
+      "slug": "caladora-einhell-a-bateria",
+      "titulo": "Caladora Einhell a batería",
+      "descripcion": "Perfecto estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-07-27",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/caladora-einhell-a-bateria-1.webp",
+        "fotos/caladora-einhell-a-bateria-2.webp",
+        "fotos/caladora-einhell-a-bateria-3.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/cazadora-einhell-bateria-1061926142"
+    },
+    {
+      "id": "w-xzo2y7engl69",
+      "slug": "fuente-de-alimentacion-led-24-v-120-w",
+      "titulo": "Fuente de alimentación LED 24 V 120 W",
+      "descripcion": "Buen estado.\n\nFuente de alimentación para luces LED, modelo EDXe1 120/24.093. Entrada de 220 a 240 V, 650...530 mA, 50/60 Hz. Salida de 24 V y 120 W. Temperatura ambiente de -20 a 45 °C.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 2500,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-07-27",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/fuente-de-alimentacion-led-24-v-120-w-1.webp",
+        "fotos/fuente-de-alimentacion-led-24-v-120-w-2.webp",
+        "fotos/fuente-de-alimentacion-led-24-v-120-w-3.webp",
+        "fotos/fuente-de-alimentacion-led-24-v-120-w-4.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          201,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/fuente-led-24v-120w-edxe1-120-24-093-1134008209"
+    },
+    {
+      "id": "w-8j347r30k869",
+      "slug": "kit-de-crimpado-coaxial-pro-skit-hrv331",
+      "titulo": "Kit de crimpado coaxial Pro'sKit HRV331",
+      "descripcion": "Nuevo, en su caja original. Incluye crimpadora, cortador de cable redondo, pelacables coaxial rotatorio, destornillador y juego de matrices para distintos conectores.\n\nKit de crimpado coaxial Pro'sKit HRV331 en caja de plástico resistente.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 7900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-07-27",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/kit-de-crimpado-coaxial-pro-skit-hrv331-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/kit-crimpado-coaxial-pro-skit-hrv331-1134008958"
+    },
+    {
+      "id": "w-pj9m3v83mk6e",
+      "slug": "iphone-15-blanco-plata",
+      "titulo": "iPhone 15 blanco/plata",
+      "descripcion": "Muy buen estado.\n\niPhone 15 de color blanco y plata.",
+      "categoria_id": "cat-moviles-informatica",
+      "precio_cents": 59900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-07-27",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/iphone-15-blanco-plata-1.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/iphone-15-blanco-plata-1134009337"
+    },
+    {
+      "id": "w-wzv4w230e1zl",
+      "slug": "tornillo-de-banco",
+      "titulo": "Tornillo de banco",
+      "descripcion": "Buen estado.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 14000,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-07-27",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/tornillo-de-banco-1.webp",
+        "fotos/tornillo-de-banco-2.webp"
+      ],
+      "_recorte": false,
+      "_medidas": [
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/tornillo-de-banco-1133172117"
+    },
+    {
+      "id": "w-p614pqx2q565",
+      "slug": "sikaflex-11-fc-purform-sellador-y-adhesivo",
+      "titulo": "Sikaflex-11 FC Purform, sellador y adhesivo",
+      "descripcion": "Perfecto estado.\n\nSellador y adhesivo Sikaflex-11 FC Purform, 300 ml / 390 g cada unidad. Hay 48 unidades; el precio es por unidad.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 600,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-07-27",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/sikaflex-11-fc-purform-sellador-y-adhesivo-1.webp",
+        "fotos/sikaflex-11-fc-purform-sellador-y-adhesivo-2.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          1032,
+          1065
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/sikaflex-11-fc-purform-12uds-1134005407"
+    },
+    {
+      "id": "w-pzp2lwv4n5j3",
+      "slug": "flejadora-manual-antigua",
+      "titulo": "Flejadora manual antigua",
+      "descripcion": "Buen estado de conservación.\n\nFlejadora manual antigua, de metal. Ideal para uso profesional.",
+      "categoria_id": "cat-herramienta-jardin",
+      "precio_cents": 9900,
+      "precio_anterior_cents": null,
+      "iva": null,
+      "destacado": false,
+      "creado": "2025-07-27",
+      "opciones": [],
+      "variantes": [
+        {
+          "stock": 1,
+          "precio_cents": null,
+          "sku": null
+        }
+      ],
+      "fotos": [
+        "fotos/flejadora-manual-antigua-1.webp",
+        "fotos/flejadora-manual-antigua-2.webp",
+        "fotos/flejadora-manual-antigua-3.webp"
+      ],
+      "_recorte": true,
+      "_medidas": [
+        [
+          387,
+          1200
+        ],
+        [
+          900,
+          1200
+        ],
+        [
+          900,
+          1200
+        ]
+      ],
+      "_wallapop": "https://es.wallapop.com/item/flejadora-manual-antigua-1134007426"
+    }
+  ]
+}

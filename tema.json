@@ -1,0 +1,46 @@
+{
+  "logo": {
+    "main": "assets/brand/logo.svg",
+    "horizontal": "assets/brand/logo-horizontal.svg",
+    "short": "assets/brand/ovalo.svg",
+    "on_dark": "assets/brand/logo-sobre-oscuro.svg",
+    "favicon": "assets/brand/favicon.svg"
+  },
+  "colors": {
+    "bg": "#EDF1F5",
+    "surface": "#FBFCFD",
+    "text": "#141C26",
+    "muted": "#54606D",
+    "line": "#C9D1D9",
+    "accent": "#141C26",
+    "onAccent": "#FBFCFD",
+    "sale": "#B3261E",
+    "motif": "#96439F"
+  },
+  "fonts": { "heading": "Geist", "body": "Geist", "mono": "Geist Mono" },
+  "radius": 4,
+  "motif": {
+    "kind": "vitrina",
+    "vender": { "label": "Vender", "href": "/vender" },
+    "zonas": [
+      { "categoria": "moviles-informatica", "material": "mostrador" },
+      { "categoria": "consolas-videojuegos", "material": "balda" },
+      { "categoria": "coleccionismo", "material": "vidrio" },
+      { "categoria": "imagen-sonido", "material": "balda" },
+      { "categoria": "herramienta-jardin", "material": "cesped" },
+      { "categoria": "movilidad", "material": "cesped" },
+      { "categoria": "hogar", "material": "suelo" },
+      { "categoria": "musica-deporte-pesca", "material": "ganchos" },
+      { "categoria": "arte-antiguedades", "material": "pared" }
+    ]
+  },
+  "intro": null,
+  "home": [
+    { "id": "hero", "type": "hero", "variant": "vitrina" },
+    { "id": "cats", "type": "categories", "variant": "zonas" },
+    { "id": "nuevo", "type": "products", "variant": "peana", "source": "newest", "limit": 6 },
+    { "id": "banner", "type": "banner" },
+    { "id": "about", "type": "about" },
+    { "id": "visit", "type": "visit" }
+  ]
+}

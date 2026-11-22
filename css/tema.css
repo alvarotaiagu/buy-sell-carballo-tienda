@@ -1,0 +1,22 @@
+/* Tema de la tienda: el `stores.theme` de tema.json pasado a variables CSS.
+   En la plataforma lo inyecta el servidor; aquí es el ÚNICO sitio con colores del tema.
+   Las fuentes Geist y Geist Mono no están en FONTS: «A añadir a la plataforma» (README). */
+@font-face { font-family: "Geist"; src: url("../assets/fonts/geist.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Geist Mono"; src: url("../assets/fonts/geist-mono.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
+
+:root {
+  --bg: #EDF1F5;
+  --surface: #FBFCFD;
+  --text: #141C26;
+  --muted: #54606D;
+  --line: #C9D1D9;
+  --accent: #141C26;
+  --on-accent: #FBFCFD;
+  --sale: #B3261E;
+  --motif: #96439F;
+  --font-heading: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --radius: 4px;
+  color-scheme: light;
+}

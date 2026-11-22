@@ -1,0 +1,778 @@
+/* Motivo «vitrina» · hero (variante `vitrina`). Lo pinta js/motivo/vitrina.js.
+   Todo cuelga de .hero-vitrina (también la hoja Popover, que es hija de la sección).
+   Colores: solo variables del tema y de material (materiales.css). Ni un color literal.
+   Estados ocultos y transiciones: solo bajo html.con-movimiento. Sin ella, encendida y quieta.
+
+   Capas (de atrás adelante):
+     .vt-vitrina (1)  pared, luz, suelo, tramos con baldas y artículos, perfiles, cristal
+     .vt-penumbra (2) la luz al encenderse; en reposo no se ve
+     .vt-txt (3)      titular, bajada y botones
+   Para alinear el texto con la cabecera, --vt-max debe valer lo mismo que el ancho de .wrap. */
+
+.hero-vitrina {
+  --vt-max: 1320px;
+  --vt-dintel: var(--cab-h, 64px);
+  --vt-lado: max(clamp(16px, 4vw, 56px), calc((100% - var(--vt-max)) / 2));
+  --vt-perfil: clamp(6px, .62vw, 10px);   /* grueso del riel y de los montantes */
+  --vt-zoc: clamp(22px, 4.2vh, 44px);     /* zócalo lacado */
+  --vt-bajo: clamp(20px, 5vh, 52px);      /* de la última balda al suelo */
+  --vt-aire: clamp(10px, 1.4vw, 22px);    /* bajo el canto: sitio para su sombra */
+  --vt-gap: clamp(10px, 1.4vw, 24px);
+  --vt-fila: 150px;                       /* alto mínimo de cada balda */
+  --vt-tope: clamp(200px, 38vh, 340px);   /* alto máximo de una pieza en su balda (con pocos destacados) */
+  --gb: clamp(14px, 1.9vw, 30px);         /* fondo de la balda, visto en perspectiva */
+  --gc: clamp(5px, .55vw, 9px);           /* canto del vidrio */
+  --gs: clamp(12px, 1.5vw, 24px);         /* sombra de contacto */
+  --gr: clamp(8px, 1vw, 16px);            /* reflejo en el vidrio */
+  --gt: clamp(8px, .8vw, 12px);           /* cuánto cuelga la etiqueta */
+  --vt-blanco: var(--alu-1);
+  --vt-cara: linear-gradient(180deg,
+    color-mix(in srgb, color-mix(in srgb, var(--vidrio-1) 34%, var(--surface)) 35%, transparent) 0%,
+    color-mix(in srgb, color-mix(in srgb, var(--vidrio-1) 10%, var(--surface)) 82%, transparent) 100%);
+  --vt-canto:
+    linear-gradient(90deg, transparent 0%, color-mix(in srgb, var(--vt-blanco) 75%, transparent) 9%, transparent 20%,
+      transparent 61%, color-mix(in srgb, var(--vt-blanco) 50%, transparent) 68%, transparent 78%),
+    linear-gradient(180deg, color-mix(in srgb, var(--vidrio-1) 18%, var(--surface)) 0%, var(--vidrio-1) 20%,
+      var(--vidrio-2) 78%, var(--vidrio-3) 100%);
+  --vt-fondo: linear-gradient(180deg, color-mix(in srgb, var(--surface) 50%, var(--bg)) 0%, var(--bg) 52%,
+    color-mix(in srgb, var(--bg) 62%, var(--line)) 100%);
+  --mx: 0;
+  --my: 0;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  min-height: clamp(560px, 100vh, 880px);
+  min-height: clamp(560px, 100svh, 880px);
+  padding-top: var(--vt-dintel);   /* el dintel lacado: detrás de la cabecera fija */
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Composición: texto a la izquierda, vitrina a sangre por la derecha ---------- */
+.hero-vitrina .vt-comp {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: minmax(0, .82fr) minmax(0, 1.5fr);
+  column-gap: clamp(20px, 3vw, 48px);
+  min-height: 0;
+  padding-left: var(--vt-lado);
+}
+.hero-vitrina .vt-txt {
+  position: relative;
+  z-index: 3;
+  align-self: center;
+  min-width: 0;
+  padding: clamp(28px, 5vh, 64px) 0 calc(var(--vt-zoc) + clamp(36px, 8vh, 96px));
+}
+.hero-vitrina .vt-kicker {
+  margin: 0 0 clamp(12px, 1.4vw, 20px);
+  font: 500 .875rem/1.2 var(--font-mono);
+  color: var(--muted);
+}
+.hero-vitrina .vt-tit {
+  margin: 0;
+  font: 600 clamp(2.6rem, 5.4vw, 4.75rem)/.96 var(--font-heading);
+  letter-spacing: -.045em;
+  color: var(--text);
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+.hero-vitrina .vt-sub {
+  margin: clamp(18px, 2.2vw, 30px) 0 0;
+  max-width: 27rem;
+  font: 400 clamp(1rem, 1.2vw, 1.125rem)/1.5 var(--font-body);
+  color: var(--muted);
+  text-wrap: pretty;
+}
+.hero-vitrina .vt-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 14px;
+  margin-top: clamp(24px, 2.8vw, 38px);
+}
+.hero-vitrina .vt-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .55em;
+  white-space: nowrap;
+}
+.hero-vitrina .vt-cta .btn svg {
+  display: block;
+  flex: none;
+  width: 1.25em;
+  height: auto;
+}
+html.con-movimiento .hero-vitrina .vt-cta .btn svg { transition: transform .45s var(--expo); }
+html.con-movimiento .hero-vitrina .vt-cta .btn:hover svg { transform: translateX(.25em); }
+
+/* ---------- La vitrina ---------- */
+.hero-vitrina .vt-vitrina {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+  min-height: 420px;
+  padding: var(--vt-perfil) 0 var(--vt-zoc);
+  transform: translate3d(calc(var(--mx) * -12px), 0, 0);
+}
+.hero-vitrina .vt-vitrina[data-forma="pie"] { grid-template-columns: minmax(0, min(44rem, 58%)) minmax(0, 1fr); }
+.hero-vitrina .vt-vitrina[data-forma="dos"] {
+  grid-template-columns: minmax(0, min(44rem, 58%)) minmax(0, min(20rem, 30%));
+  justify-content: start;
+}
+
+/* capas a sangre: salen de la caja de la vitrina hasta los bordes de la pantalla (las recorta el hero) */
+.hero-vitrina .vt-pared,
+.hero-vitrina .vt-led,
+.hero-vitrina .vt-suelo,
+.hero-vitrina .vt-riel,
+.hero-vitrina .vt-zocalo {
+  position: absolute;
+  left: -100vw;
+  right: -100vw;
+  display: block;
+  pointer-events: none;
+}
+.hero-vitrina .vt-pared {
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background: var(--vt-fondo);
+  transform: translate3d(calc(var(--mx) * 8.4px), 0, 0);
+}
+/* el foco de arriba: un claro sobre la pared, centrado en la vitrina */
+.hero-vitrina .vt-pared::after {
+  content: "";
+  position: absolute;
+  left: 88vw;
+  right: 88vw;
+  top: 0;
+  height: 62%;
+  background: radial-gradient(60% 100% at 50% 0%, var(--surface) 0%, transparent 72%);
+}
+/* la luz de los tubos, pegada al riel */
+.hero-vitrina .vt-led {
+  top: var(--vt-perfil);
+  height: min(36%, 260px);
+  background: linear-gradient(180deg,
+    color-mix(in srgb, var(--vt-blanco) 95%, transparent) 0%,
+    color-mix(in srgb, var(--vt-blanco) 55%, transparent) 3%,
+    color-mix(in srgb, var(--vt-blanco) 18%, transparent) 38%,
+    transparent 100%);
+}
+.hero-vitrina .vt-suelo {
+  bottom: var(--vt-zoc);
+  height: var(--gb);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--bg) 50%, transparent) 0%, color-mix(in srgb, var(--surface) 90%, transparent) 100%);
+  transform: translate3d(calc(var(--mx) * 2.4px), 0, 0);
+}
+.hero-vitrina .vt-riel {
+  top: 0;
+  z-index: 4;
+  height: var(--vt-perfil);
+  background: var(--alu);
+  box-shadow: 0 4px 8px rgb(var(--sombra) / .14);
+}
+.hero-vitrina .vt-zocalo {
+  bottom: 0;
+  z-index: 4;
+  height: var(--vt-zoc);
+  background: linear-gradient(180deg, var(--surface) 0%, color-mix(in srgb, var(--surface) 55%, var(--bg)) 100%);
+  box-shadow: inset 0 3px 0 var(--line), inset 0 4px 0 var(--surface);
+}
+
+/* tramos: cada uno arranca en su montante de aluminio */
+.hero-vitrina .vt-tramo {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: repeat(var(--filas, 2), minmax(var(--vt-fila), 1fr));
+  min-width: 0;
+  padding-bottom: var(--vt-bajo);
+}
+.hero-vitrina .vt-tramo--pie { padding-bottom: 0; }
+.hero-vitrina .vt-tramo::before,
+.hero-vitrina .vt-tramo--cierra::after {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--vt-perfil) / -2);
+  width: var(--vt-perfil);
+  background: var(--alu-v);
+  box-shadow:
+    6px 0 10px -4px rgb(var(--sombra) / .2),
+    -1px 0 0 color-mix(in srgb, var(--vidrio-2) 55%, transparent),
+    1px 0 0 color-mix(in srgb, var(--vidrio-2) 55%, transparent);
+  pointer-events: none;
+}
+.hero-vitrina .vt-tramo--cierra::after { left: auto; right: calc(var(--vt-perfil) / -2); }
+
+/* baldas: la cara de arriba (en perspectiva) y el canto verdoso, con su sombra */
+.hero-vitrina .vt-balda {
+  position: relative;
+  container-type: size;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  gap: var(--vt-gap);
+  min-width: 0;
+  padding: clamp(18px, 3vh, 34px) clamp(10px, 1.6vw, 28px) calc(var(--vt-aire) + var(--gc) + var(--gb) * .5);
+}
+.hero-vitrina .vt-balda::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--vt-aire) + var(--gc));
+  height: var(--gb);
+  clip-path: polygon(1.2% 0, 98.8% 0, 100% 100%, 0 100%);
+  background: var(--vt-cara);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--vt-blanco) 95%, transparent);
+  transform: translate3d(calc(var(--mx) * 2.4px), 0, 0);
+  pointer-events: none;
+}
+.hero-vitrina .vt-balda::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: var(--vt-aire);
+  height: var(--gc);
+  background: var(--vt-canto);
+  box-shadow:
+    0 5px 8px color-mix(in srgb, var(--vidrio-2) 28%, transparent),
+    0 20px 26px -6px rgb(var(--sombra) / .2);
+  transform: translate3d(calc(var(--mx) * 2.4px), 0, 0);
+  pointer-events: none;
+}
+/* lo que va de pie se apoya en el suelo de la vitrina, sin balda */
+.hero-vitrina .vt-balda--suelo {
+  --vt-gap: clamp(14px, 2.4vw, 40px);
+  --vt-tope: 100cqb;   /* lo que va de pie no tiene más tope que el alto de la vitrina */
+  justify-content: flex-start;
+  padding-left: clamp(16px, 2.6vw, 44px);
+  padding-bottom: calc(var(--gb) * .5);
+}
+.hero-vitrina .vt-balda--suelo::before,
+.hero-vitrina .vt-balda--suelo::after { display: none; }
+
+/* ---------- La pieza: un artículo apoyado, con sombra de contacto, reflejo y una sola luz ---------- */
+.hero-vitrina .vt-articulo,
+.hero-vitrina .vt-pieza {
+  --alto: clamp(84px, 13vw, 190px);
+  position: relative;
+  flex: none;
+  display: block;
+  width: calc(var(--alto) * var(--ar, 1));
+  height: var(--alto);
+}
+/* el alto sale del hueco de la balda (cqb) y de su parte del ancho (cqi): nada desborda */
+@supports (width: 1cqi) {
+  .hero-vitrina .vt-articulo,
+  .hero-vitrina .vt-pieza {
+    --alto: min(
+      calc(100cqb * var(--k, .8)),
+      calc((100cqi - var(--vt-gap) * (var(--n, 2) - 1)) * var(--parte, .5) * .94 / var(--ar, 1)),
+      var(--vt-tope, 100cqb)
+    );
+  }
+}
+.hero-vitrina .vt-articulo {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius);
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transform: translate3d(calc(var(--mx) * var(--kp, .3) * 12px), calc(var(--my) * -4px), 0);
+}
+.hero-vitrina .vt-articulo:hover,
+.hero-vitrina .vt-articulo:focus-visible { z-index: 5; }
+.hero-vitrina .vt-articulo:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 7px;
+}
+
+.hero-vitrina .vt-som {
+  position: absolute;
+  left: -9%;
+  right: -9%;
+  bottom: calc(var(--gs) * -.48);
+  height: var(--gs);
+  display: block;
+  pointer-events: none;
+  background:
+    radial-gradient(50% 50% at 50% 50%, rgb(var(--sombra) / .56) 0%, rgb(var(--sombra) / .28) 40%, rgb(var(--sombra) / 0) 74%) 50% 50% / 68% 64% no-repeat,
+    radial-gradient(50% 50% at 50% 50%, rgb(var(--sombra) / .2) 0%, rgb(var(--sombra) / 0) 72%) 50% 50% / 100% 100% no-repeat;
+}
+.hero-vitrina .vt-som--tenue { opacity: .45; }
+.hero-vitrina .vt-ref {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: var(--gr);
+  display: block;
+  overflow: hidden;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(180deg, var(--text) 0%, transparent 100%);
+  mask-image: linear-gradient(180deg, var(--text) 0%, transparent 100%);
+}
+.hero-vitrina .vt-prod {
+  position: absolute;
+  inset: 0;
+  display: block;
+  filter: drop-shadow(0 6px 9px rgb(var(--sombra) / .2));
+}
+.hero-vitrina .vt-fig {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.hero-vitrina .vt-ref .vt-fig {
+  inset: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: var(--alto);
+  transform: scaleY(-1);
+  opacity: .24;
+}
+.hero-vitrina .vt-fig img,
+.hero-vitrina .vt-luz {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+}
+.hero-vitrina .vt-fig img {
+  object-fit: contain;
+  object-position: 50% 100%;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+/* la misma luz para todos: claro arriba, sombra fría abajo. En los recortes se recorta con su
+   silueta (la máscara la pone el guion al cargar la foto); hasta entonces no se ve. */
+.hero-vitrina .vt-luz {
+  pointer-events: none;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--vt-blanco) 15%, transparent) 0%, transparent 28%, transparent 52%, rgb(var(--sombra) / .2) 100%);
+}
+.hero-vitrina .vt-fig--recorte .vt-luz {
+  -webkit-mask-image: linear-gradient(transparent, transparent);
+  mask-image: linear-gradient(transparent, transparent);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: 50% 100%;
+  mask-position: 50% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/* foto normal (sin recortar): un cuadro de marco fino, apoyado e inclinado hacia atrás */
+.hero-vitrina .vt-cuadro {
+  position: absolute;
+  inset: 0;
+  display: block;
+  padding: clamp(3px, .4vw, 6px);
+  border: clamp(2px, .2vw, 3px) solid color-mix(in srgb, var(--text) 86%, var(--surface));
+  border-radius: 1px;
+  background: var(--surface);
+  transform: perspective(700px) rotateX(7deg);
+  transform-origin: 50% 100%;
+}
+.hero-vitrina .vt-cuadro img {
+  position: relative;
+  inset: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+/* en el cuadro el velo es también el reflejo del cristal del marco */
+.hero-vitrina .vt-cuadro .vt-luz {
+  background:
+    linear-gradient(115deg, transparent 0%, transparent 30%, color-mix(in srgb, var(--vt-blanco) 26%, transparent) 42%, transparent 54%, transparent 100%),
+    linear-gradient(180deg, color-mix(in srgb, var(--vt-blanco) 15%, transparent) 0%, transparent 28%, transparent 52%, rgb(var(--sombra) / .2) 100%);
+}
+
+/* sin foto: el óvalo del logo, tenue (lo trae huecoHTML) */
+.hero-vitrina .vt-fig--hueco {
+  display: grid;
+  place-items: center;
+}
+.hero-vitrina .vt-fig--hueco > * {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.hero-vitrina .vt-articulo--hueco .vt-prod,
+.hero-vitrina .vt-pieza--hueco .vt-prod { filter: none; }
+
+/* la etiqueta ovalada, pegada al pie; el nombre asoma al pasar por encima */
+.hero-vitrina .vt-eti {
+  position: absolute;
+  z-index: 3;
+  left: var(--tx, 54%);
+  bottom: calc(var(--gt) * -1.5);
+  display: block;
+  rotate: var(--tr, -3deg);
+  pointer-events: none;
+}
+.hero-vitrina .vt-nombre {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  bottom: calc(100% + 10px);
+  max-width: 17rem;
+  overflow: hidden;
+  padding: 6px 9px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  font: 500 .8125rem/1.15 var(--font-body);
+  letter-spacing: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  translate: -50% 0;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0 0 0 1px rgb(var(--sombra) / .06), 0 8px 14px -6px rgb(var(--sombra) / .4);
+}
+.hero-vitrina .vt-articulo:focus-visible .vt-nombre { opacity: 1; }
+@media (hover: hover) {
+  .hero-vitrina .vt-articulo:hover .vt-nombre { opacity: 1; }
+}
+
+/* ---------- El cristal: la puerta corredera, con sus brillos, su perfil y su tirador ---------- */
+.hero-vitrina .vt-cristal {
+  position: absolute;
+  z-index: 5;
+  inset: var(--vt-perfil) 0 var(--vt-zoc);
+  overflow: hidden;
+  pointer-events: none;
+}
+.hero-vitrina .vt-puerta {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--vt-blanco) 7%, transparent) 0%, transparent 30%);
+}
+.hero-vitrina .vt-puerta::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: calc(var(--vt-perfil) * .8);
+  background: var(--alu-v);
+}
+.hero-vitrina .vt-tirador {
+  position: absolute;
+  right: clamp(14px, 1.6vw, 26px);
+  top: 50%;
+  display: block;
+  width: calc(var(--vt-perfil) * .8);
+  height: clamp(64px, 16%, 120px);
+  translate: 0 -50%;
+  border-radius: var(--radius);
+  background: var(--alu-v);
+  box-shadow: 3px 4px 7px rgb(var(--sombra) / .3);
+}
+.hero-vitrina .vt-brillos {
+  position: absolute;
+  inset: 0;
+}
+.hero-vitrina .vt-brillos i {
+  position: absolute;
+  top: -12%;
+  left: calc(var(--l) * 1%);
+  display: block;
+  width: calc(var(--an) * 1%);
+  height: 124%;
+  opacity: var(--o, 1);
+  background: linear-gradient(90deg, transparent 0%, color-mix(in srgb, var(--vt-blanco) 44%, transparent) 46%, color-mix(in srgb, var(--vt-blanco) 10%, transparent) 60%, transparent 100%);
+  transform: translate3d(calc(var(--mx) * 70px), 0, 0) skewX(-17deg);
+}
+
+/* ---------- Abrir la vitrina: la puerta se aparta y lo demás se desenfoca ---------- */
+.hero-vitrina.vt-abierta .vt-puerta { transform: translateX(-101%); }
+.hero-vitrina.vt-abierta .vt-articulo:not(.vt-elegido) {
+  filter: blur(clamp(3px, .45vw, 6px)) saturate(.75);
+  opacity: .62;
+}
+.hero-vitrina.vt-abierta .vt-elegido { z-index: 4; }
+
+/* la luz al encenderse: una penumbra que se retira de izquierda a derecha; en reposo no se ve */
+.hero-vitrina .vt-penumbra {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: var(--vt-dintel);
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
+.hero-vitrina .vt-penumbra i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  width: 300%;
+  background: linear-gradient(90deg, rgb(var(--sombra) / 0) 0%, rgb(var(--sombra) / 0) 38%, rgb(var(--sombra) / .46) 56%, rgb(var(--sombra) / .46) 100%);
+}
+
+/* ---------- La hoja (API Popover): foto, categoría, nombre, etiqueta grande y acciones ---------- */
+.hero-vitrina .vt-hoja {
+  --mx: 0;
+  --my: 0;
+  --vt-aire: 18px;
+  display: none;
+  position: fixed;
+  inset: var(--cab-h, 64px) auto 0 var(--vt-lado);
+  width: min(27rem, calc(100vw - 32px));
+  height: fit-content;
+  max-height: calc(100dvh - var(--cab-h, 64px) - 32px);
+  margin: auto 0;
+  padding: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  box-shadow:
+    0 0 0 1px rgb(var(--sombra) / .06),
+    0 28px 48px -20px rgb(var(--sombra) / .35),
+    0 6px 12px -5px rgb(var(--sombra) / .18);
+}
+.hero-vitrina .vt-hoja:popover-open { display: block; }
+/* navegador sin API Popover: la abre y la cierra el guion con esta clase */
+.hero-vitrina .vt-hoja.vt-hoja--abierta {
+  display: block;
+  z-index: 90;
+}
+.hero-vitrina .vt-hoja::backdrop { background: rgb(var(--sombra) / .2); }
+
+.hero-vitrina .vt-cerrar {
+  position: absolute;
+  z-index: 6;
+  right: 6px;
+  top: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: var(--radius);
+  background: none;
+  color: var(--muted);
+  font: 500 .875rem/1 var(--font-body);
+  cursor: pointer;
+}
+.hero-vitrina .vt-cerrar svg {
+  display: block;
+  width: 1.15em;
+  height: auto;
+}
+.hero-vitrina .vt-cerrar:hover {
+  background: color-mix(in srgb, var(--bg) 80%, var(--surface));
+  color: var(--text);
+}
+.hero-vitrina .vt-cerrar:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+  color: var(--text);
+}
+.hero-vitrina .vt-cerrar:active { transform: scale(.96); }
+
+/* la foto, en su propia balda de vidrio */
+.hero-vitrina .vt-hoja-foto {
+  height: clamp(200px, 34vh, 310px);
+  padding: 30px 28px calc(var(--vt-aire) + var(--gc) + var(--gb) * .5);
+  justify-content: center;
+  background:
+    radial-gradient(70% 80% at 50% 0%, var(--surface) 0%, transparent 72%),
+    var(--vt-fondo);
+}
+.hero-vitrina .vt-hoja-txt { padding: 20px 24px 24px; }
+.hero-vitrina .vt-hoja-cat {
+  margin: 0 0 6px;
+  font: 400 .875rem/1.25 var(--font-mono);
+  color: var(--muted);
+}
+.hero-vitrina .vt-hoja-nom {
+  margin: 0;
+  font: 600 clamp(1.35rem, 2vw, 1.7rem)/1.1 var(--font-heading);
+  letter-spacing: -.03em;
+  color: var(--text);
+  text-wrap: balance;
+}
+.hero-vitrina .vt-hoja-precio { margin-top: 16px; }
+.hero-vitrina .vt-hoja-desc {
+  display: -webkit-box;
+  margin: 14px 0 0;
+  overflow: hidden;
+  font: 400 .9375rem/1.5 var(--font-body);
+  color: var(--muted);
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.hero-vitrina .vt-hoja-acc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.hero-vitrina .vt-hoja-acc .btn {
+  flex: 1 1 auto;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* ---------- Movimiento: solo con html.con-movimiento (hay GSAP y no se pide movimiento reducido) ---------- */
+html.con-movimiento .hero-vitrina .vt-vitrina,
+html.con-movimiento .hero-vitrina .vt-pared,
+html.con-movimiento .hero-vitrina .vt-suelo,
+html.con-movimiento .hero-vitrina .vt-balda::before,
+html.con-movimiento .hero-vitrina .vt-balda::after { transition: transform 1.2s var(--expo); }
+html.con-movimiento .hero-vitrina .vt-brillos i { transition: transform 1.5s var(--expo); }
+html.con-movimiento .hero-vitrina .vt-articulo { transition: transform 1.2s var(--expo), filter .5s linear, opacity .5s linear; }
+html.con-movimiento .hero-vitrina .vt-fig { transition: transform .6s var(--expo); }
+html.con-movimiento .hero-vitrina .vt-nombre { transition: opacity .25s linear, translate .5s var(--expo); translate: -50% 5px; }
+html.con-movimiento .hero-vitrina .vt-articulo:focus-visible .vt-nombre { translate: -50% 0; }
+html.con-movimiento .hero-vitrina .vt-articulo .etiqueta {
+  transform-origin: 12% 100%;
+  transition: transform .5s var(--expo);
+}
+html.con-movimiento .hero-vitrina .vt-articulo:focus-visible .vt-fig,
+html.con-movimiento .hero-vitrina.vt-abierta .vt-elegido .vt-fig { transform: translateY(-6px); }
+/* el pico de la etiqueta se levanta */
+html.con-movimiento .hero-vitrina .vt-articulo:focus-visible .etiqueta { transform: perspective(300px) rotateY(-14deg) rotateZ(-3deg) translateY(-2px); }
+@media (hover: hover) {
+  html.con-movimiento .hero-vitrina .vt-articulo:hover .vt-fig { transform: translateY(-6px); }
+  html.con-movimiento .hero-vitrina .vt-articulo:hover .vt-nombre { translate: -50% 0; }
+  html.con-movimiento .hero-vitrina .vt-articulo:hover .etiqueta { transform: perspective(300px) rotateY(-14deg) rotateZ(-3deg) translateY(-2px); }
+}
+html.con-movimiento .hero-vitrina .vt-articulo:active .vt-fig { transform: translateY(-2px) scale(.985); }
+html.con-movimiento .hero-vitrina .vt-puerta { transition: transform 1s var(--expo) .12s; }
+html.con-movimiento .hero-vitrina.vt-abierta .vt-puerta { transition-delay: 0s; }
+html.con-movimiento .hero-vitrina .vt-cerrar { transition: color .2s linear, background-color .2s linear, transform .3s var(--expo); }
+
+/* la hoja entra y sale; donde el navegador no sabe animar la capa superior, aparece sin más */
+html.con-movimiento .hero-vitrina .vt-hoja {
+  opacity: 0;
+  transform: translate3d(-18px, 0, 0);
+  transition: opacity .26s linear, transform .55s var(--expo), overlay .55s allow-discrete, display .55s allow-discrete;
+}
+html.con-movimiento .hero-vitrina .vt-hoja:popover-open {
+  opacity: 1;
+  transform: none;
+}
+html.con-movimiento .hero-vitrina .vt-hoja.vt-hoja--abierta {
+  opacity: 1;
+  transform: none;
+}
+html.con-movimiento .hero-vitrina .vt-hoja::backdrop {
+  opacity: 0;
+  transition: opacity .3s linear, overlay .55s allow-discrete, display .55s allow-discrete;
+}
+html.con-movimiento .hero-vitrina .vt-hoja:popover-open::backdrop { opacity: 1; }
+@starting-style {
+  html.con-movimiento .hero-vitrina .vt-hoja:popover-open {
+    opacity: 0;
+    transform: translate3d(-18px, 0, 0);
+  }
+  html.con-movimiento .hero-vitrina .vt-hoja:popover-open::backdrop { opacity: 0; }
+}
+/* al añadir a la cesta la hoja se va de golpe, para no tapar el vuelo de la etiqueta */
+html.con-movimiento .hero-vitrina .vt-hoja.vt-hoja--ya,
+html.con-movimiento .hero-vitrina .vt-hoja.vt-hoja--ya::backdrop { transition: none; }
+
+/* ---------- Entre móvil y escritorio: el texto aprieta un poco ---------- */
+@media (max-width: 1023px) {
+  .hero-vitrina .vt-comp { grid-template-columns: minmax(0, .9fr) minmax(0, 1.35fr); }
+}
+
+/* ---------- Móvil: el texto arriba y, debajo, una balda sobre otra ---------- */
+@media (max-width: 760px) {
+  .hero-vitrina {
+    --vt-fila: clamp(160px, 46vw, 220px);
+    --vt-perfil: 5px;
+    --vt-zoc: 22px;
+    --vt-bajo: 18px;
+    --vt-aire: 10px;
+    --vt-gap: 10px;
+    --gb: clamp(12px, 3.4vw, 18px);
+    --gc: 4px;
+    --gs: clamp(10px, 3vw, 16px);
+    --gr: clamp(7px, 1.8vw, 10px);
+    --gt: 8px;
+    min-height: 0;
+  }
+  .hero-vitrina .vt-comp {
+    display: block;
+    padding-left: 0;
+  }
+  .hero-vitrina .vt-txt { padding: clamp(24px, 7vw, 40px) 16px clamp(26px, 7vw, 38px); }
+  .hero-vitrina .vt-tit { font-size: clamp(2.4rem, 12.4vw, 3.6rem); }
+  .hero-vitrina .vt-sub {
+    max-width: none;
+    font-size: 1rem;
+  }
+  .hero-vitrina .vt-vitrina { min-height: 0; }
+  .hero-vitrina .vt-vitrina[data-forma="pie"],
+  .hero-vitrina .vt-vitrina[data-forma="dos"] {
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+    justify-content: normal;
+  }
+  .hero-vitrina .vt-vitrina[data-forma="pie"] { min-height: calc(var(--vt-fila) * 1.8); }
+  .hero-vitrina .vt-tramo:first-child::before,
+  .hero-vitrina .vt-tramo--cierra::after { display: none; }
+  .hero-vitrina .vt-balda { padding: 16px 10px calc(var(--vt-aire) + var(--gc) + var(--gb) * .5); }
+  .hero-vitrina .vt-balda--suelo {
+    --vt-gap: 10px;
+    padding-left: 12px;
+    padding-right: 6px;
+    padding-bottom: calc(var(--gb) * .5);
+  }
+  .hero-vitrina .vt-nombre { display: none; }
+  .hero-vitrina .vt-tirador { right: 12px; }
+
+  /* la hoja sube desde abajo */
+  .hero-vitrina .vt-hoja {
+    inset: auto 0 0;
+    width: 100%;
+    max-height: 88dvh;
+    margin: 0;
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  .hero-vitrina .vt-hoja-foto {
+    height: clamp(180px, 50vw, 250px);
+    padding: 30px 20px calc(var(--vt-aire) + var(--gc) + var(--gb) * .5);
+  }
+  .hero-vitrina .vt-hoja-txt { padding: 18px 16px 20px; }
+  html.con-movimiento .hero-vitrina .vt-hoja { transform: translate3d(0, 24px, 0); }
+  @starting-style {
+    html.con-movimiento .hero-vitrina .vt-hoja:popover-open { transform: translate3d(0, 24px, 0); }
+  }
+}
